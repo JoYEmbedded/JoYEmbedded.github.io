@@ -17,8 +17,6 @@
         <link rel="alternate" href="http://jy-geeker.top/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97.md.output/"/>
         <content type="html">&lt;h1 id=&#34;voron操作指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#voron操作指南&#34;&gt;#&lt;/a&gt; voron 操作指南&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658885309481.png&#34; alt=&#34;1658885309481&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;font size=7&amp;gt;                         目录 &amp;lt;/font&amp;gt;&lt;/p&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h2&gt;
 &lt;p&gt;​    voron 打印机是笔者投入了大量精力复刻的成果，目的是为工作室成员们提供一台工作室专属的高精度 FDM 打印机。由于 voron 打印机硬件维修极为麻烦，基本需要两个人同时在场才较好维修，所以请大家使用时务必好好爱惜。&lt;/p&gt;
 &lt;p&gt;​	请注意，本打印机&lt;strong&gt;不支持打印 ABS 和 TPU 材料&lt;/strong&gt;（缺少相关配件），打印时&lt;strong&gt;不需要涂固体胶或者粘贴美纹纸&lt;/strong&gt;，取下打印机时&lt;strong&gt;不需要刮刀&lt;/strong&gt;。在使用 voron 打印机前，请&lt;strong&gt;务必仔细阅读操作指南&lt;/strong&gt;。打印成功与否与第一层紧密关联，请保证第一层正常打印。&amp;lt;font color=red&amp;gt; 不要用手拖拽挤出头位置，这会导致电机与皮带轮松掉 &amp;lt;/font&amp;gt;。&lt;/p&gt;
