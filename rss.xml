@@ -10,10 +10,58 @@
         </author>
         <description>描述123</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 16 Mar 2023 23:32:47 +0800</pubDate>
-        <lastBuildDate>Thu, 16 Mar 2023 23:32:47 +0800</lastBuildDate>
+        <pubDate>Fri, 17 Mar 2023 09:01:03 +0800</pubDate>
+        <lastBuildDate>Fri, 17 Mar 2023 09:01:03 +0800</lastBuildDate>
         <category term="关键词1" />
         <category term="关键词2" />
+        <item>
+            <guid isPermalink="true">http://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97.md.output/</guid>
+            <title></title>
+            <link>http://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97.md.output/</link>
+            <pubDate>Fri, 17 Mar 2023 09:01:03 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;quiet&lt;/p&gt;
+&lt;p&gt;aurora&lt;/p&gt;
+&lt;p&gt;shoka！！！&lt;/p&gt;
+&lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
+&lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
+&lt;p&gt;最主要是 &lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;  里的 &lt;code&gt;menu&lt;/code&gt;  那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/root/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.yml&lt;/code&gt;  对应&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/root/themes/shoka/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.shoka.yml&lt;/code&gt;  对应&lt;/p&gt;
+&lt;h2 id=&#34;local显示正常域名访问图片无法显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#local显示正常域名访问图片无法显示&#34;&gt;#&lt;/a&gt; local 显示正常，域名访问图片无法显示&lt;/h2&gt;
+&lt;p&gt;这个 bug 比较奇怪，我不清楚我这个解决方案是否正确。我是除了 hello world.md 文件以外，又上传了一篇博客，然后全部图片就能正常显示了，仅供参考。&lt;/p&gt;
+&lt;h2 id=&#34;每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;#&lt;/a&gt; 每次 hexo d 之后 github page 都要重新设置一下域名&lt;/h2&gt;
+&lt;p&gt;解决方案：在 &lt;code&gt;/root/source&lt;/code&gt;  新建 CNAME，里面仅输入域名，如 jy-geeker.top (不要加 http 或者 www)&lt;/p&gt;
+&lt;h1 id=&#34;配置解析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置解析&#34;&gt;#&lt;/a&gt; 配置解析&lt;/h1&gt;
+&lt;h2 id=&#34;自定义图库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义图库&#34;&gt;#&lt;/a&gt; 自定义图库&lt;/h2&gt;
+&lt;h3 id=&#34;方法1-借用gimhoy图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法1-借用gimhoy图床&#34;&gt;#&lt;/a&gt; 方法 1 借用 GimHoy 图床&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waWMuZ2ltaG95LmNvbS8=&#34;&gt;Gimhoy 图床 | 无限制永久免费图床 - 微博图床 - 全网 CDN - 永久外链图床 - tuchuang - 图片外链 - 外链相册 - 国内图床 - 论坛图片 - 淘宝图片 | pic.Gimhoy.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;上传图片后记录每个图片链接的最后一串信息（参考 themes/shoka 目录下的_images.yml)，图片要至少 10 张左右。如果在 yml 文件中最后一行多打了 - 则会报错。&lt;/p&gt;
+&lt;p&gt;用这一图床图片右下角会有水印。不推荐&lt;/p&gt;
+&lt;h3 id=&#34;方法2-借用picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法2-借用picgo&#34;&gt;#&lt;/a&gt; 方法 2 借用 PicGo&lt;/h3&gt;
+&lt;p&gt;PicGo 直接用 github 可不可行我不清楚，下面介绍用 PicGo 插件 &lt;code&gt;github-plus&lt;/code&gt; 。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;下载方式为 PicGo 的 plugins settings 搜索并下载&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;githubPlus 的 repo 填写用户名 / 仓库名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;branch 注意是 main 还是 master，github 自动生成为 main&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;token 在 github 的右上角头像点击 settings-&amp;gt;Developer settings (最左下角)-&amp;gt;Personal access tokens-&amp;gt;token (classic)-&amp;gt;generate new token-&amp;gt;classic-&amp;gt;note 自己填 -&amp;gt; 注意勾选 repo 然后滚到最下面 Generate token (发现忘记勾选 repo 时重新回到这界面一定要记得勾选后滚到最下面保存！！！)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设置代理（不清楚要不要这一步，可能会快一点），以 clash 为例，为 127.0.0.1：7890&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678885687604.png&#34; alt=&#34;1678885687604&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;md文件中的图片无法正常显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#md文件中的图片无法正常显示&#34;&gt;#&lt;/a&gt; md 文件中的图片无法正常显示&lt;/h2&gt;
+&lt;p&gt;可以参考 github 上的这个脚本，这个脚本的前提条件是你用的图床工具 PicGo 已经配置好了，具体配置说明请看 &lt;code&gt;自定义图库&lt;/code&gt; 的方法 2。此外，在运行程序前，请确保 PicGo 已经启动。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0pIZXgtZ2l0L01kUGljQmF0Y2hVcGxvYWRlcg==&#34;&gt;JHex-git/MdPicBatchUploader: 基于 PicGo 将 md 文件里所有的本地图像一键批量上传并更新图像链接的 python 脚本 (github.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;执行程序后，把各路径输入后，它会在你输入的文件路径下生成两个 output 文件，把这两个文件剪贴到 &lt;code&gt;/root/source/_posts/&lt;/code&gt;  下后重新生成博客即可正常显示图片。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://jy-geeker.top/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97.md.output/</guid>
             <title>voron操作指南</title>
