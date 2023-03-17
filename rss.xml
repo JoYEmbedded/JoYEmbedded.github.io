@@ -16,13 +16,12 @@
         <category term="关键词2" />
         <item>
             <guid isPermalink="true">http://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97.md.output/</guid>
-            <title></title>
+            <title>shoka配置心得</title>
             <link>http://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97.md.output/</link>
+            <category term="shoka" scheme="http://jy-geeker.top/tags/shoka/" />
+            <category term="PicGo" scheme="http://jy-geeker.top/tags/PicGo/" />
             <pubDate>Fri, 17 Mar 2023 09:01:03 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;quiet&lt;/p&gt;
-&lt;p&gt;aurora&lt;/p&gt;
-&lt;p&gt;shoka！！！&lt;/p&gt;
-&lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
 &lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
 &lt;p&gt;最主要是 &lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;  里的 &lt;code&gt;menu&lt;/code&gt;  那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;/root/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.yml&lt;/code&gt;  对应&lt;/p&gt;
