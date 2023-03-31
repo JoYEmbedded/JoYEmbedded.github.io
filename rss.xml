@@ -3,8 +3,8 @@
     <channel>
         <title>-J丶Y的技术栈道</title>
         <subtitle>望月阁</subtitle>
-        <icon>http://jy-geeker.top/images/favicon.ico</icon>
-        <link>http://jy-geeker.top</link>
+        <icon>https://jy-geeker.top/images/favicon.ico</icon>
+        <link>https://jy-geeker.top</link>
         <author>
           <name>-J丶Y</name>
         </author>
@@ -15,11 +15,11 @@
         <category term="关键词1" />
         <category term="关键词2" />
         <item>
-            <guid isPermalink="true">http://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</guid>
+            <guid isPermalink="true">https://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</guid>
             <title>shoka配置心得</title>
-            <link>http://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</link>
-            <category term="shoka" scheme="http://jy-geeker.top/tags/shoka/" />
-            <category term="PicGo" scheme="http://jy-geeker.top/tags/PicGo/" />
+            <link>https://jy-geeker.top/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</link>
+            <category term="shoka" scheme="https://jy-geeker.top/tags/shoka/" />
+            <category term="PicGo" scheme="https://jy-geeker.top/tags/PicGo/" />
             <pubDate>Fri, 17 Mar 2023 09:01:03 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
 &lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
@@ -62,11 +62,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://jy-geeker.top/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</guid>
+            <guid isPermalink="true">https://jy-geeker.top/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</guid>
             <title>voron操作指南</title>
-            <link>http://jy-geeker.top/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</link>
-            <category term="voron" scheme="http://jy-geeker.top/tags/voron/" />
-            <category term="3D打印机" scheme="http://jy-geeker.top/tags/3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
+            <link>https://jy-geeker.top/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</link>
+            <category term="voron" scheme="https://jy-geeker.top/tags/voron/" />
+            <category term="3D打印机" scheme="https://jy-geeker.top/tags/3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
             <pubDate>Thu, 16 Mar 2023 23:32:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;voron操作指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#voron操作指南&#34;&gt;#&lt;/a&gt; voron 操作指南&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658885309481.png&#34; alt=&#34;1658885309481&#34; /&gt;&lt;/p&gt;
@@ -165,11 +165,11 @@ Quad_Gantry_Level           //4轴调平
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://jy-geeker.top/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</guid>
+            <guid isPermalink="true">https://jy-geeker.top/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</guid>
             <title>python pandas画图无响应</title>
-            <link>http://jy-geeker.top/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</link>
-            <category term="python" scheme="http://jy-geeker.top/tags/python/" />
-            <category term="pandas" scheme="http://jy-geeker.top/tags/pandas/" />
+            <link>https://jy-geeker.top/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</link>
+            <category term="python" scheme="https://jy-geeker.top/tags/python/" />
+            <category term="pandas" scheme="https://jy-geeker.top/tags/pandas/" />
             <pubDate>Thu, 16 Mar 2023 19:23:04 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python-pandas无法画图画图弹窗死机backend-qtagg-is-interactive-backend-turning-interactive-mode-on&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python-pandas无法画图画图弹窗死机backend-qtagg-is-interactive-backend-turning-interactive-mode-on&#34;&gt;#&lt;/a&gt; python pandas 无法画图，画图弹窗死机，Backend QtAgg is interactive backend. Turning interactive mode on.&lt;/h1&gt;
 &lt;p&gt;初学 pandas，操作还不熟练，然后在运行下面这个代码时遇到了一个坑，来分享一下解决方法。&lt;/p&gt;
@@ -182,9 +182,9 @@ Quad_Gantry_Level           //4轴调平
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://jy-geeker.top/hello-world/</guid>
+            <guid isPermalink="true">https://jy-geeker.top/hello-world/</guid>
             <title>Hello World</title>
-            <link>http://jy-geeker.top/hello-world/</link>
+            <link>https://jy-geeker.top/hello-world/</link>
             <pubDate>Thu, 09 Mar 2023 23:55:03 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
