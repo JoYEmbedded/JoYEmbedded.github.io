@@ -12,45 +12,65 @@
     <category term="关键词1" />
     <category term="关键词2" />
     <entry>
-        <id>https://jy-geeker.top/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
+        <id>https://jy-geeker.top/open%20source%20project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
         <title>shoka配置心得</title>
-        <link rel="alternate" href="https://jy-geeker.top/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/"/>
-        <content type="html">&lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a href=&#34;#常见bug解决方案&#34; class=&#34;headerlink&#34; title=&#34;常见bug解决方案&#34;&gt;&lt;/a&gt;常见bug解决方案&lt;/h1&gt;&lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a href=&#34;#shoka-配置后显示不全的原因&#34; class=&#34;headerlink&#34; title=&#34;shoka 配置后显示不全的原因&#34;&gt;&lt;/a&gt;shoka 配置后显示不全的原因&lt;/h2&gt;&lt;p&gt;最主要是&lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;里的&lt;code&gt;menu&lt;/code&gt;那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;/root/_config.yml&lt;/code&gt;与&lt;code&gt;/root/themes/shoka/example/_config.yml&lt;/code&gt;对应&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;/root/themes/shoka/_config.yml&lt;/code&gt;与&lt;code&gt;/root/themes/shoka/example/_config.shoka.yml&lt;/code&gt;对应&lt;/p&gt;
-&lt;h2 id=&#34;local显示正常，域名访问图片无法显示&#34;&gt;&lt;a href=&#34;#local显示正常，域名访问图片无法显示&#34; class=&#34;headerlink&#34; title=&#34;local显示正常，域名访问图片无法显示&#34;&gt;&lt;/a&gt;local显示正常，域名访问图片无法显示&lt;/h2&gt;&lt;p&gt;这个bug比较奇怪，我不清楚我这个解决方案是否正确。我是除了hello world.md文件以外，又上传了一篇博客，然后全部图片就能正常显示了，仅供参考。&lt;/p&gt;
-&lt;h2 id=&#34;每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;&lt;a href=&#34;#每次hexo-d之后github-page都要重新设置一下域名&#34; class=&#34;headerlink&#34; title=&#34;每次hexo d之后github page都要重新设置一下域名&#34;&gt;&lt;/a&gt;每次hexo d之后github page都要重新设置一下域名&lt;/h2&gt;&lt;p&gt;解决方案：在&lt;code&gt;/root/source&lt;/code&gt;新建CNAME，里面仅输入域名，如jy-geeker.top(不要加http或者www)&lt;/p&gt;
-&lt;h1 id=&#34;配置解析&#34;&gt;&lt;a href=&#34;#配置解析&#34; class=&#34;headerlink&#34; title=&#34;配置解析&#34;&gt;&lt;/a&gt;配置解析&lt;/h1&gt;&lt;h2 id=&#34;自定义图库&#34;&gt;&lt;a href=&#34;#自定义图库&#34; class=&#34;headerlink&#34; title=&#34;自定义图库&#34;&gt;&lt;/a&gt;自定义图库&lt;/h2&gt;&lt;h3 id=&#34;方法1-借用GimHoy图床&#34;&gt;&lt;a href=&#34;#方法1-借用GimHoy图床&#34; class=&#34;headerlink&#34; title=&#34;方法1 借用GimHoy图床&#34;&gt;&lt;/a&gt;方法1 借用GimHoy图床&lt;/h3&gt;&lt;p&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waWMuZ2ltaG95LmNvbS8=&#34;&gt;Gimhoy图床 | 无限制永久免费图床 - 微博图床 - 全网CDN - 永久外链图床 - tuchuang - 图片外链 - 外链相册 - 国内图床 - 论坛图片 - 淘宝图片 | pic.Gimhoy.com&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;上传图片后记录每个图片链接的最后一串信息（参考themes&amp;#x2F;shoka目录下的_images.yml)，图片要至少10张左右。如果在yml文件中最后一行多打了-则会报错。&lt;/p&gt;
+        <link rel="alternate" href="https://jy-geeker.top/open%20source%20project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/"/>
+        <content type="html">&lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
+&lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
+&lt;p&gt;最主要是 &lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;  里的 &lt;code&gt;menu&lt;/code&gt;  那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/root/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.yml&lt;/code&gt;  对应&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/root/themes/shoka/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.shoka.yml&lt;/code&gt;  对应&lt;/p&gt;
+&lt;h2 id=&#34;local显示正常域名访问图片无法显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#local显示正常域名访问图片无法显示&#34;&gt;#&lt;/a&gt; local 显示正常，域名访问图片无法显示&lt;/h2&gt;
+&lt;p&gt;这个 bug 比较奇怪，我不清楚我这个解决方案是否正确。我是除了 hello world.md 文件以外，又上传了一篇博客，然后全部图片就能正常显示了，仅供参考。&lt;/p&gt;
+&lt;h2 id=&#34;每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;#&lt;/a&gt; 每次 hexo d 之后 github page 都要重新设置一下域名&lt;/h2&gt;
+&lt;p&gt;解决方案：在 &lt;code&gt;/root/source&lt;/code&gt;  新建 CNAME，里面仅输入域名，如 jy-geeker.top (不要加 http 或者 www)&lt;/p&gt;
+&lt;h1 id=&#34;配置解析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置解析&#34;&gt;#&lt;/a&gt; 配置解析&lt;/h1&gt;
+&lt;h2 id=&#34;自定义图库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义图库&#34;&gt;#&lt;/a&gt; 自定义图库&lt;/h2&gt;
+&lt;h3 id=&#34;方法1-借用gimhoy图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法1-借用gimhoy图床&#34;&gt;#&lt;/a&gt; 方法 1 借用 GimHoy 图床&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waWMuZ2ltaG95LmNvbS8=&#34;&gt;Gimhoy 图床 | 无限制永久免费图床 - 微博图床 - 全网 CDN - 永久外链图床 - tuchuang - 图片外链 - 外链相册 - 国内图床 - 论坛图片 - 淘宝图片 | pic.Gimhoy.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;上传图片后记录每个图片链接的最后一串信息（参考 themes/shoka 目录下的_images.yml)，图片要至少 10 张左右。如果在 yml 文件中最后一行多打了 - 则会报错。&lt;/p&gt;
 &lt;p&gt;用这一图床图片右下角会有水印。不推荐&lt;/p&gt;
-&lt;h3 id=&#34;方法2-借用PicGo&#34;&gt;&lt;a href=&#34;#方法2-借用PicGo&#34; class=&#34;headerlink&#34; title=&#34;方法2 借用PicGo&#34;&gt;&lt;/a&gt;方法2 借用PicGo&lt;/h3&gt;&lt;p&gt;PicGo直接用github可不可行我不清楚，下面介绍用PicGo插件&lt;code&gt;github-plus&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;方法2-借用picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法2-借用picgo&#34;&gt;#&lt;/a&gt; 方法 2 借用 PicGo&lt;/h3&gt;
+&lt;p&gt;PicGo 直接用 github 可不可行我不清楚，下面介绍用 PicGo 插件 &lt;code&gt;github-plus&lt;/code&gt; 。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;下载方式为PicGo的plugins settings 搜索并下载&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;下载方式为 PicGo 的 plugins settings 搜索并下载&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;githubPlus的repo填写用户名&amp;#x2F;仓库名&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;githubPlus 的 repo 填写用户名 / 仓库名&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;branch注意是main还是master，github自动生成为main&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;branch 注意是 main 还是 master，github 自动生成为 main&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;token在github的右上角头像点击settings-&amp;gt;Developer settings(最左下角)-&amp;gt;Personal access tokens-&amp;gt;token(classic)-&amp;gt;generate new token-&amp;gt;classic-&amp;gt;note自己填-&amp;gt;注意勾选repo然后滚到最下面Generate token(发现忘记勾选repo时重新回到这界面一定要记得勾选后滚到最下面保存！！！)&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;token 在 github 的右上角头像点击 settings-&amp;gt;Developer settings (最左下角)-&amp;gt;Personal access tokens-&amp;gt;token (classic)-&amp;gt;generate new token-&amp;gt;classic-&amp;gt;note 自己填 -&amp;gt; 注意勾选 repo 然后滚到最下面 Generate token (发现忘记勾选 repo 时重新回到这界面一定要记得勾选后滚到最下面保存！！！)&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;设置代理（不清楚要不要这一步，可能会快一点），以clash为例，为127.0.0.1：7890&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678885687604.png&#34; alt=&#34;1678885687604&#34;&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;设置代理（不清楚要不要这一步，可能会快一点），以 clash 为例，为 127.0.0.1：7890&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678885687604.png&#34; alt=&#34;1678885687604&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;md文件中的图片无法正常显示&#34;&gt;&lt;a href=&#34;#md文件中的图片无法正常显示&#34; class=&#34;headerlink&#34; title=&#34;md文件中的图片无法正常显示&#34;&gt;&lt;/a&gt;md文件中的图片无法正常显示&lt;/h2&gt;&lt;p&gt;可以参考github上的这个脚本，这个脚本的前提条件是你用的图床工具PicGo已经配置好了，具体配置说明请看&lt;code&gt;自定义图库&lt;/code&gt;的方法2。此外，在运行程序前，请确保PicGo已经启动。&lt;/p&gt;
-&lt;p&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0pIZXgtZ2l0L01kUGljQmF0Y2hVcGxvYWRlcg==&#34;&gt;JHex-git&amp;#x2F;MdPicBatchUploader: 基于PicGo将md文件里所有的本地图像一键批量上传并更新图像链接的python脚本 (github.com)&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;执行程序后，把各路径输入后，它会在你输入的文件路径下生成两个output文件，把这两个文件剪贴到&lt;code&gt;/root/source/_posts/&lt;/code&gt;下后重新生成博客即可正常显示图片。&lt;/p&gt;
-&lt;h2 id=&#34;百度收录网站（暂未解决）&#34;&gt;&lt;a href=&#34;#百度收录网站（暂未解决）&#34; class=&#34;headerlink&#34; title=&#34;百度收录网站（暂未解决）&#34;&gt;&lt;/a&gt;百度收录网站（暂未解决）&lt;/h2&gt;&lt;p&gt;到百度的站长工具中，选择文件验证方式，将下载得到的文件置于&lt;code&gt;/themes/shoka/source&lt;/code&gt;里，注意不要放在&lt;code&gt;/root/source&lt;/code&gt;中，否则会显示404。（此处不推荐HTML标签验证，本人尝试许久仍未解决）。放置文件后重新布置网页，点击&lt;code&gt;点击这里&lt;/code&gt;(蓝字)则能够正确跳转到网站。此时网页内容仅为一行字加空白底色。如果此前操作过HTML标签验证可能会存在仍显示目标主题的一行字。但此时仍存在验证失败的问题。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680247331322.png&#34; alt=&#34;1680247331322&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;谷歌收录网站&#34;&gt;&lt;a href=&#34;#谷歌收录网站&#34; class=&#34;headerlink&#34; title=&#34;谷歌收录网站&#34;&gt;&lt;/a&gt;谷歌收录网站&lt;/h2&gt;&lt;p&gt;谷歌收录相比百度简单不少，流程也快很多。&lt;/p&gt;
+&lt;h2 id=&#34;md文件中的图片无法正常显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#md文件中的图片无法正常显示&#34;&gt;#&lt;/a&gt; md 文件中的图片无法正常显示&lt;/h2&gt;
+&lt;p&gt;可以参考 github 上的这个脚本，这个脚本的前提条件是你用的图床工具 PicGo 已经配置好了，具体配置说明请看 &lt;code&gt;自定义图库&lt;/code&gt; 的方法 2。此外，在运行程序前，请确保 PicGo 已经启动。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0pIZXgtZ2l0L01kUGljQmF0Y2hVcGxvYWRlcg==&#34;&gt;JHex-git/MdPicBatchUploader: 基于 PicGo 将 md 文件里所有的本地图像一键批量上传并更新图像链接的 python 脚本 (github.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;执行程序后，把各路径输入后，它会在你输入的文件路径下生成两个 output 文件，把这两个文件剪贴到 &lt;code&gt;/root/source/_posts/&lt;/code&gt;  下后重新生成博客即可正常显示图片。&lt;/p&gt;
+&lt;h2 id=&#34;百度收录网站暂未解决&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#百度收录网站暂未解决&#34;&gt;#&lt;/a&gt; 百度收录网站（暂未解决）&lt;/h2&gt;
+&lt;p&gt;到百度的站长工具中，选择文件验证方式，将下载得到的文件置于 &lt;code&gt;/themes/shoka/source&lt;/code&gt;  里，注意不要放在 &lt;code&gt;/root/source&lt;/code&gt;  中，否则会显示 404。（此处不推荐 HTML 标签验证，本人尝试许久仍未解决）。放置文件后重新布置网页，点击 &lt;code&gt;点击这里&lt;/code&gt;  (蓝字) 则能够正确跳转到网站。此时网页内容仅为一行字加空白底色。如果此前操作过 HTML 标签验证可能会存在仍显示目标主题的一行字。但此时仍存在验证失败的问题。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680247331322.png&#34; alt=&#34;1680247331322&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;谷歌收录网站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#谷歌收录网站&#34;&gt;#&lt;/a&gt; 谷歌收录网站&lt;/h2&gt;
+&lt;p&gt;谷歌收录相比百度简单不少，流程也快很多。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;进入网址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWFyY2guZ29vZ2xlLmNvbS9zZWFyY2gtY29uc29sZS93ZWxjb21l&#34;&gt;https://search.google.com/search-console/welcome&lt;/span&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;进入网址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWFyY2guZ29vZ2xlLmNvbS9zZWFyY2gtY29uc29sZS93ZWxjb21l&#34;&gt; https://search.google.com/search-console/welcome&lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;选择右侧资源类型，即网址前缀，输入你要收录的网址，如&lt;code&gt;https://jy-geeker.top&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;选择右侧资源类型，即网址前缀，输入你要收录的网址，如 &lt;code&gt;https://jy-geeker.top&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;选用文件验证方式，下载相关验证文件，放在&lt;code&gt;/themes/shoka/source&lt;/code&gt;下，重新布置网站。&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;选用文件验证方式，下载相关验证文件，放在 &lt;code&gt;/themes/shoka/source&lt;/code&gt;  下，重新布置网站。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;等待3min左右，进行验证，验证成功如下图所示。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680250509975.png&#34; alt=&#34;1680250509975&#34;&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;等待 3min 左右，进行验证，验证成功如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680250509975.png&#34; alt=&#34;1680250509975&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
@@ -59,91 +79,100 @@
         <updated>2023-03-31T08:32:40.405Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</id>
+        <id>https://jy-geeker.top/open%20source%20project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</id>
         <title>voron操作指南</title>
-        <link rel="alternate" href="https://jy-geeker.top/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/"/>
-        <content type="html">&lt;h1 id=&#34;voron操作指南&#34;&gt;&lt;a href=&#34;#voron操作指南&#34; class=&#34;headerlink&#34; title=&#34;voron操作指南&#34;&gt;&lt;/a&gt;voron操作指南&lt;/h1&gt;&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658885309481.png&#34; alt=&#34;1658885309481&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;写在前面&#34;&gt;&lt;a href=&#34;#写在前面&#34; class=&#34;headerlink&#34; title=&#34;写在前面&#34;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;​    voron打印机是笔者投入了大量精力复刻的成果，目的是为工作室成员们提供一台工作室专属的高精度FDM打印机。由于voron打印机硬件维修极为麻烦，基本需要两个人同时在场才较好维修，所以请大家使用时务必好好爱惜。&lt;/p&gt;
-&lt;p&gt;​	请注意，本打印机&lt;strong&gt;不支持打印ABS和TPU材料&lt;/strong&gt;（缺少相关配件），打印时&lt;strong&gt;不需要涂固体胶或者粘贴美纹纸&lt;/strong&gt;，取下打印机时&lt;strong&gt;不需要刮刀&lt;/strong&gt;。在使用voron打印机前，请&lt;strong&gt;务必仔细阅读操作指南&lt;/strong&gt;。打印成功与否与第一层紧密关联，请保证第一层正常打印。&lt;font color=red&gt; 不要用手拖拽挤出头位置，这会导致电机与皮带轮松掉&lt;/font&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;一、软件说明&#34;&gt;&lt;a href=&#34;#一、软件说明&#34; class=&#34;headerlink&#34; title=&#34;一、软件说明&#34;&gt;&lt;/a&gt;一、软件说明&lt;/h2&gt;&lt;h3 id=&#34;1-软件的安装&#34;&gt;&lt;a href=&#34;#1-软件的安装&#34; class=&#34;headerlink&#34; title=&#34;1.软件的安装&#34;&gt;&lt;/a&gt;1.软件的安装&lt;/h3&gt;&lt;p&gt;​	voron打印机对于切片软件有特殊要求，大家常用的cura并不能支持voron&lt;del&gt;(我没试过)&lt;/del&gt;，要使用voron打印机，推荐下载PrusaSlicer，下面是该软件的下载链接：&lt;/p&gt;
+        <link rel="alternate" href="https://jy-geeker.top/open%20source%20project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/"/>
+        <content type="html">&lt;h1 id=&#34;voron操作指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#voron操作指南&#34;&gt;#&lt;/a&gt; voron 操作指南&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658885309481.png&#34; alt=&#34;1658885309481&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h2&gt;
+&lt;p&gt;​    voron 打印机是笔者投入了大量精力复刻的成果，目的是为工作室成员们提供一台工作室专属的高精度 FDM 打印机。由于 voron 打印机硬件维修极为麻烦，基本需要两个人同时在场才较好维修，所以请大家使用时务必好好爱惜。&lt;/p&gt;
+&lt;p&gt;​	请注意，本打印机&lt;strong&gt;不支持打印 ABS 和 TPU 材料&lt;/strong&gt;（缺少相关配件），打印时&lt;strong&gt;不需要涂固体胶或者粘贴美纹纸&lt;/strong&gt;，取下打印机时&lt;strong&gt;不需要刮刀&lt;/strong&gt;。在使用 voron 打印机前，请&lt;strong&gt;务必仔细阅读操作指南&lt;/strong&gt;。打印成功与否与第一层紧密关联，请保证第一层正常打印。&amp;lt;font color=red&amp;gt; 不要用手拖拽挤出头位置，这会导致电机与皮带轮松掉 &amp;lt;/font&amp;gt;。&lt;/p&gt;
+&lt;h2 id=&#34;一-软件说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-软件说明&#34;&gt;#&lt;/a&gt; 一、软件说明&lt;/h2&gt;
+&lt;h3 id=&#34;1软件的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1软件的安装&#34;&gt;#&lt;/a&gt; 1. 软件的安装&lt;/h3&gt;
+&lt;p&gt;​	voron 打印机对于切片软件有特殊要求，大家常用的 cura 并不能支持 voron~~(我没试过)~~，要使用 voron 打印机，推荐下载 PrusaSlicer，下面是该软件的下载链接：&lt;/p&gt;
 &lt;p&gt;​												&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucHJ1c2EzZC5jb20vcGFnZS9wcnVzYXNsaWNlcl80MjQv&#34;&gt;https://www.prusa3d.com/page/prusaslicer_424/&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;​	此外，支持voron打印机的软件也包括ultimaker，但是笔者尝试以后发现ultimaker的打印路径规划比较奇怪，这里不作推荐。&lt;/p&gt;
-&lt;p&gt;​	后面有关切片软件的介绍皆以PrusaSlicer为例。安装过程较为简单，在这里作简要说明。&lt;/p&gt;
-&lt;p&gt;​	安装不需要装在C盘，可以自己选择位置，如下图，然后点击next。&lt;/p&gt;
-&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658896388359.png&#34; width=30% height=30%/&gt;
-
-
-
-&lt;p&gt;出现下图页面，按照默认设置即可，直接点击next。&lt;/p&gt;
-&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978238448.png&#34; width=30% height=30% /&gt;
-
-&lt;p&gt;​	安装成功后，桌面上出现PrusaSlicer和Prusa G-code Viewer两个快捷方式（不出现G-code viewer也正常）。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658891077440.png&#34; alt=&#34;1658891077440&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;2-软件的配置&#34;&gt;&lt;a href=&#34;#2-软件的配置&#34; class=&#34;headerlink&#34; title=&#34;2.软件的配置&#34;&gt;&lt;/a&gt;2.软件的配置&lt;/h3&gt;&lt;p&gt;​	第一次打开PrusaSlicer，它会要求对打印机进行初始的选择与配置。点击左侧其他供应商，选择Voron后点击继续。&lt;/p&gt;
-&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978377415.png&#34; width=90% height=90%/&gt;
-
-&lt;p&gt;​	选择voron V2 Afterburner系列的 Voron v2 350mm3的0.4mm喷嘴，如下图所示。350mm3是指voron的尺寸，Afterburner是近程挤出机，voron版本为v2.4。点击继续。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978569957.png&#34; alt=&#34;1658978569957&#34;&gt;&lt;/p&gt;
+&lt;p&gt;​	此外，支持 voron 打印机的软件也包括 ultimaker，但是笔者尝试以后发现 ultimaker 的打印路径规划比较奇怪，这里不作推荐。&lt;/p&gt;
+&lt;p&gt;​	后面有关切片软件的介绍皆以 PrusaSlicer 为例。安装过程较为简单，在这里作简要说明。&lt;/p&gt;
+&lt;p&gt;​	安装不需要装在 C 盘，可以自己选择位置，如下图，然后点击 next。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1podWdlSnVueWFvL3dlYl9iYXNpY19pbWFnZS9tYWluLzE2NTg4OTYzODgzNTkucG5n&#34;&gt;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658896388359.png&lt;/span&gt;&amp;quot; width=30% height=30%/&amp;gt;&lt;/p&gt;
+&lt;p&gt;出现下图页面，按照默认设置即可，直接点击 next。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1podWdlSnVueWFvL3dlYl9iYXNpY19pbWFnZS9tYWluLzE2NTg5NzgyMzg0NDgucG5n&#34;&gt;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978238448.png&lt;/span&gt;&amp;quot; width=30% height=30% /&amp;gt;&lt;/p&gt;
+&lt;p&gt;​	安装成功后，桌面上出现 PrusaSlicer 和 Prusa G-code Viewer 两个快捷方式（不出现 G-code viewer 也正常）。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658891077440.png&#34; alt=&#34;1658891077440&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2软件的配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2软件的配置&#34;&gt;#&lt;/a&gt; 2. 软件的配置&lt;/h3&gt;
+&lt;p&gt;​	第一次打开 PrusaSlicer，它会要求对打印机进行初始的选择与配置。点击左侧其他供应商，选择 Voron 后点击继续。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1podWdlSnVueWFvL3dlYl9iYXNpY19pbWFnZS9tYWluLzE2NTg5NzgzNzc0MTUucG5n&#34;&gt;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978377415.png&lt;/span&gt;&amp;quot; width=90% height=90%/&amp;gt;&lt;/p&gt;
+&lt;p&gt;​	选择 voron V2 Afterburner 系列的 Voron v2 350mm3 的 0.4mm 喷嘴，如下图所示。350mm3 是指 voron 的尺寸，Afterburner 是近程挤出机，voron 版本为 v2.4。点击继续。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978569957.png&#34; alt=&#34;1658978569957&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;​	耗材选择如下图所示。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978732302.png&#34; alt=&#34;1658978732302&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978732302.png&#34; alt=&#34;1658978732302&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;​	其他的操作均按照默认即可，配置结束。&lt;/p&gt;
-&lt;h3 id=&#34;3-软件的基本使用&#34;&gt;&lt;a href=&#34;#3-软件的基本使用&#34; class=&#34;headerlink&#34; title=&#34;3.软件的基本使用&#34;&gt;&lt;/a&gt;3.软件的基本使用&lt;/h3&gt;&lt;p&gt;​	第一次进入PrusaSlicer，它右侧的打印机选项（红色方框框选区域）不会自动切换为voron，请手动切换。打印设置可能也要自己重新选取。左上角的打印设置、耗材设置、打印机设置等都可以自己调节参数。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978927979.png&#34; alt=&#34;1658978927979&#34;&gt;&lt;/p&gt;
-&lt;p&gt;​	切片操作和Cura类似，将STL导入后，点击右下角的现在切片，切片成功后右下角按钮变为“导出G-code”，得到”.gcode”文件即可。需要注意的是，如果发现stl文件不太对，要重新切片，可以点击&lt;strong&gt;左下角方格重新进入3D模型阶段&lt;/strong&gt;。其他功能请自行摸索。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658979361616.png&#34; alt=&#34;1658979361616&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;二、硬件操作基本介绍&#34;&gt;&lt;a href=&#34;#二、硬件操作基本介绍&#34; class=&#34;headerlink&#34; title=&#34;二、硬件操作基本介绍&#34;&gt;&lt;/a&gt;二、硬件操作基本介绍&lt;/h2&gt;&lt;p&gt;​	voron打印机启动需要确保三个插头插上，一个是voron自带三孔插头，该电线为蜘蛛主板供电；二个是usb-typeC线，通过连接5V2A以上的手机充电器，为树莓派供电；三是保证小米路由器通电，voron的有线与路由器连接。满足上述三个条件后，按下开关启动，启动成功后2min以内正面下方显示屏亮起且正常显示文字（非纯绿色）。&lt;/p&gt;
-&lt;img data-src=&#34;C:\Users\jy120\AppData\Roaming\Typora\typora-user-images\1659009497192.png&#34; width=40% height=40%&gt;
-
+&lt;h3 id=&#34;3软件的基本使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3软件的基本使用&#34;&gt;#&lt;/a&gt; 3. 软件的基本使用&lt;/h3&gt;
+&lt;p&gt;​	第一次进入 PrusaSlicer，它右侧的打印机选项（红色方框框选区域）不会自动切换为 voron，请手动切换。打印设置可能也要自己重新选取。左上角的打印设置、耗材设置、打印机设置等都可以自己调节参数。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658978927979.png&#34; alt=&#34;1658978927979&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	切片操作和 Cura 类似，将 STL 导入后，点击右下角的现在切片，切片成功后右下角按钮变为 “导出 G-code”，得到 &amp;quot;.gcode&amp;quot; 文件即可。需要注意的是，如果发现 stl 文件不太对，要重新切片，可以点击&lt;strong&gt;左下角方格重新进入 3D 模型阶段&lt;/strong&gt;。其他功能请自行摸索。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658979361616.png&#34; alt=&#34;1658979361616&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;二-硬件操作基本介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-硬件操作基本介绍&#34;&gt;#&lt;/a&gt; 二、硬件操作基本介绍&lt;/h2&gt;
+&lt;p&gt;​	voron 打印机启动需要确保三个插头插上，一个是 voron 自带三孔插头，该电线为蜘蛛主板供电；二个是 usb-typeC 线，通过连接 5V2A 以上的手机充电器，为树莓派供电；三是保证小米路由器通电，voron 的有线与路由器连接。满足上述三个条件后，按下开关启动，启动成功后 2min 以内正面下方显示屏亮起且正常显示文字（非纯绿色）。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;C:\Users\jy120\AppData\Roaming\Typora\typora-user-images\1659009497192.png&amp;quot; width=40% height=40%&amp;gt;&lt;/p&gt;
 &lt;p&gt;​		                                                                                    接线图&lt;/p&gt;
-&lt;img data-src=&#34;C:\Users\jy120\AppData\Roaming\Typora\typora-user-images\1659015773916.png&#34; width=30% height=30%&gt;
-
-&lt;p&gt;​																	 正常启动图(框选区为急停按钮)&lt;/p&gt;
-&lt;p&gt;​	voron显示屏下方有一个按钮，为&lt;strong&gt;急停开关&lt;/strong&gt;，紧急情况下按下可终止打印。此时只有重启打印机才能恢复对打印机的控制。&lt;/p&gt;
-&lt;p&gt;​	voron后方放置耗材，后方支架上有一个尼龙柱方便耗材滚动，请不要取下。&lt;strong&gt;耗材尽量使用易生esun的PLA&lt;/strong&gt;。之前使用劣质的PLA发生了严重的堵喷头现象，处理得很艰难。&lt;/p&gt;
-&lt;h2 id=&#34;三、控制台fluidd&#34;&gt;&lt;a href=&#34;#三、控制台fluidd&#34; class=&#34;headerlink&#34; title=&#34;三、控制台fluidd&#34;&gt;&lt;/a&gt;三、控制台fluidd&lt;/h2&gt;&lt;h3 id=&#34;1-fluidd简介&#34;&gt;&lt;a href=&#34;#1-fluidd简介&#34; class=&#34;headerlink&#34; title=&#34;1.fluidd简介&#34;&gt;&lt;/a&gt;1.fluidd简介&lt;/h3&gt;&lt;p&gt;​	电脑连接网络kaola或者kaola_5g，密码为12345678。此时可能会跳出小米路由器报错，这是正常现象，忽略即可。&lt;del&gt;(因为确实没网,只有本地的局域网)&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;​	连接上网络后，不用在意电脑如下图标。打开浏览器，在网址栏输入192.168.31.197，回车，进入fluidd。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658893995900.png&#34; alt=&#34;1658893995900&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659006341925.png&#34; alt=&#34;1659006341925&#34;&gt;&lt;/p&gt;
-&lt;p&gt;​	&lt;strong&gt;黄色警告为正常现象，不用在意，红色警报才影响使用&lt;/strong&gt;。主页面主要有七个个分页面，Home和Jobs为平时需要用到的页面。Home页面用于控制打印机，Jobs用于上传gcode等文件。Configuration可以调节打印机的一些参数，请不要随意改动。下面将简要介绍一下按钮的基本功能。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659006808523.png&#34; alt=&#34;1659006808523&#34;&gt;&lt;/p&gt;
-&lt;p&gt;​	按钮１控制打印机ｘｙ回零，按钮２控制ｚ轴回零。区域三可以手动输入目标温度，建议打印前可以提早输入，输入温度后按下回车即可迅速升温。推荐&lt;strong&gt;挤出机温度为210°，热床温度为65°&lt;/strong&gt;，请注意&lt;strong&gt;不要把挤出机温度设置超过220°&lt;/strong&gt;，挤出机部分有很多ABS打印件，高温会变形。&lt;del&gt;当初就是因为挤出头堵了尝试高温加热疏通导致打印件变形，现在打印件仍有缺陷&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;​	此外，由于缺乏配件，&lt;strong&gt;请不要用这台打印机打印abs材料&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;2-打印基本流程&#34;&gt;&lt;a href=&#34;#2-打印基本流程&#34; class=&#34;headerlink&#34; title=&#34;2.打印基本流程&#34;&gt;&lt;/a&gt;2.打印基本流程&lt;/h3&gt;&lt;p&gt;​	先在Home的thermals里输入合适的挤出机温度和热床温度并回车，然后把PrusaSlicer导出的gcode文件上传。上传方式为把文件直接拖拽到Home的最下侧的右方的Jobs处，或者直接选择Jobs这个页面，将文件拖入。正确的文件fluidd大概率是能显示缩略图的，且带有voron的图标，如下图。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659007672428.png&#34; alt=&#34;1659007672428&#34;&gt;&lt;/p&gt;
-&lt;p&gt;​	上传成功以后，右键该文件，选择print即可。此时打印机会先xyz回零，然后会进行四轴调平（具体表现为打印机挤出头分别在打印平台四个角落上下调节，会重复一定次数，视打印机平台水平度情况定）。&lt;/p&gt;
-&lt;p&gt;​	打印过程中，最重要的是第一层的打印效果，第一层没问题，后面基本都不会出错，&lt;del&gt;不排除出现粘不住的情况&lt;/del&gt;所以打印第一层的时候人尽量在场。事实上，热床和挤出机的加热效率很高，基本上不需要等待多长时间就能够正式开始打印。&lt;/p&gt;
-&lt;p&gt;​	voron是可以&lt;strong&gt;实时控制&lt;/strong&gt;的。因此，在打印第一层时，可以手动微调z轴高度来实现较好的底层打印效果。按下print键后，Home页面会有所改变。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659009927396.png&#34; alt=&#34;1659009927396&#34;&gt;&lt;/p&gt;
-&lt;p&gt;​	在tool这一栏即可实时调节z轴偏移量。&lt;/p&gt;
-&lt;p&gt;​	打印暂停或者未开始print时，tool能控制挤出头，换丝完成后可以先extrude保证充分换丝。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659016624469.png&#34; alt=&#34;1659016624469&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659013152809.png&#34; alt=&#34;1659013152809&#34;&gt;&lt;/p&gt;
-&lt;p&gt;​	像图中红色选区就是z高度过低的打印效果，是失败品，而外圈这种展开得较充分的走线，则是比较合适的高度。（这是我在打印底层打印了一半时手动减小z轴偏移量导致中间区域过低，打印效果不佳。）实际打印时，听声音判断高度是否合适。如果出现挤出头在底板上刻划的声音，则应该把偏移量往上调；如果走线发现太细或者翘起则稍微下调偏移量，使得走线均匀展开。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;C:\Users\jy120\AppData\Roaming\Typora\typora-user-images\1659015773916.png&amp;quot; width=30% height=30%&amp;gt;&lt;/p&gt;
+&lt;p&gt;​																	 正常启动图 (框选区为急停按钮)&lt;/p&gt;
+&lt;p&gt;​	voron 显示屏下方有一个按钮，为&lt;strong&gt;急停开关&lt;/strong&gt;，紧急情况下按下可终止打印。此时只有重启打印机才能恢复对打印机的控制。&lt;/p&gt;
+&lt;p&gt;​	voron 后方放置耗材，后方支架上有一个尼龙柱方便耗材滚动，请不要取下。&lt;strong&gt;耗材尽量使用易生 esun 的 PLA&lt;/strong&gt;。之前使用劣质的 PLA 发生了严重的堵喷头现象，处理得很艰难。&lt;/p&gt;
+&lt;h2 id=&#34;三-控制台fluidd&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-控制台fluidd&#34;&gt;#&lt;/a&gt; 三、控制台 fluidd&lt;/h2&gt;
+&lt;h3 id=&#34;1fluidd简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1fluidd简介&#34;&gt;#&lt;/a&gt; 1.fluidd 简介&lt;/h3&gt;
+&lt;p&gt;​	电脑连接网络 kaola 或者 kaola_5g，密码为 12345678。此时可能会跳出小米路由器报错，这是正常现象，忽略即可。&lt;s&gt;(因为确实没网，只有本地的局域网)&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;​	连接上网络后，不用在意电脑如下图标。打开浏览器，在网址栏输入 192.168.31.197，回车，进入 fluidd。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658893995900.png&#34; alt=&#34;1658893995900&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659006341925.png&#34; alt=&#34;1659006341925&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;黄色警告为正常现象，不用在意，红色警报才影响使用&lt;/strong&gt;。主页面主要有七个个分页面，Home 和 Jobs 为平时需要用到的页面。Home 页面用于控制打印机，Jobs 用于上传 gcode 等文件。Configuration 可以调节打印机的一些参数，请不要随意改动。下面将简要介绍一下按钮的基本功能。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659006808523.png&#34; alt=&#34;1659006808523&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	按钮１控制打印机ｘｙ回零，按钮２控制ｚ轴回零。区域三可以手动输入目标温度，建议打印前可以提早输入，输入温度后按下回车即可迅速升温。推荐&lt;strong&gt;挤出机温度为 210°，热床温度为 65°&lt;/strong&gt;，请注意&lt;strong&gt;不要把挤出机温度设置超过 220°&lt;/strong&gt;，挤出机部分有很多 ABS 打印件，高温会变形。&lt;s&gt;当初就是因为挤出头堵了尝试高温加热疏通导致打印件变形，现在打印件仍有缺陷&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;​	此外，由于缺乏配件，&lt;strong&gt;请不要用这台打印机打印 abs 材料&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;2打印基本流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2打印基本流程&#34;&gt;#&lt;/a&gt; 2. 打印基本流程&lt;/h3&gt;
+&lt;p&gt;​	先在 Home 的 thermals 里输入合适的挤出机温度和热床温度并回车，然后把 PrusaSlicer 导出的 gcode 文件上传。上传方式为把文件直接拖拽到 Home 的最下侧的右方的 Jobs 处，或者直接选择 Jobs 这个页面，将文件拖入。正确的文件 fluidd 大概率是能显示缩略图的，且带有 voron 的图标，如下图。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659007672428.png&#34; alt=&#34;1659007672428&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	上传成功以后，右键该文件，选择 print 即可。此时打印机会先 xyz 回零，然后会进行四轴调平（具体表现为打印机挤出头分别在打印平台四个角落上下调节，会重复一定次数，视打印机平台水平度情况定）。&lt;/p&gt;
+&lt;p&gt;​	打印过程中，最重要的是第一层的打印效果，第一层没问题，后面基本都不会出错，&lt;s&gt;不排除出现粘不住的情况&lt;/s&gt;所以打印第一层的时候人尽量在场。事实上，热床和挤出机的加热效率很高，基本上不需要等待多长时间就能够正式开始打印。&lt;/p&gt;
+&lt;p&gt;​	voron 是可以&lt;strong&gt;实时控制&lt;/strong&gt;的。因此，在打印第一层时，可以手动微调 z 轴高度来实现较好的底层打印效果。按下 print 键后，Home 页面会有所改变。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659009927396.png&#34; alt=&#34;1659009927396&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	在 tool 这一栏即可实时调节 z 轴偏移量。&lt;/p&gt;
+&lt;p&gt;​	打印暂停或者未开始 print 时，tool 能控制挤出头，换丝完成后可以先 extrude 保证充分换丝。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659016624469.png&#34; alt=&#34;1659016624469&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659013152809.png&#34; alt=&#34;1659013152809&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​	像图中红色选区就是 z 高度过低的打印效果，是失败品，而外圈这种展开得较充分的走线，则是比较合适的高度。（这是我在打印底层打印了一半时手动减小 z 轴偏移量导致中间区域过低，打印效果不佳。）实际打印时，听声音判断高度是否合适。如果出现挤出头在底板上刻划的声音，则应该把偏移量往上调；如果走线发现太细或者翘起则稍微下调偏移量，使得走线均匀展开。&lt;/p&gt;
 &lt;p&gt;下面是一些常见的指令&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;G-code&#34;&gt;G28 X Y                     //xy回零，效果与按钮相同
+&lt;pre&gt;&lt;code class=&#34;language-G-code&#34;&gt;G28 X Y                     //xy回零，效果与按钮相同
 G28 Z                       //Z回零，效果与按钮相同
 Quad_Gantry_Level           //4轴调平
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;voron-常见报错及维修指南（待补充）&#34;&gt;&lt;a href=&#34;#voron-常见报错及维修指南（待补充）&#34; class=&#34;headerlink&#34; title=&#34;voron 常见报错及维修指南（待补充）&#34;&gt;&lt;/a&gt;voron 常见报错及维修指南（待补充）&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;问题:           不能识别的指令&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659014229004.png&#34; alt=&#34;1659014229004&#34;&gt;&lt;/p&gt;
-&lt;p&gt;方案：  切片的时候Prusa的打印机没有切换为voron&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659014201382.png&#34; alt=&#34;1659014201382&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;voron-常见报错及维修指南待补充&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#voron-常见报错及维修指南待补充&#34;&gt;#&lt;/a&gt; voron 常见报错及维修指南（待补充）&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;问题：不能识别的指令&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659014229004.png&#34; alt=&#34;1659014229004&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;方案：  切片的时候 Prusa 的打印机没有切换为 voron&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659014201382.png&#34; alt=&#34;1659014201382&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;问题:   按了print后，执行完四轴调平程序就停了，而且报错out of tolerance（大概，记不清了）&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;问题：按了 print 后，执行完四轴调平程序就停了，而且报错 out of tolerance（大概，记不清了）&lt;/p&gt;
 &lt;p&gt;方案：  可能是四轴调平失败了，四轴调平执行超过五圈仍然没有达到误差范围内则会终止程序。建议直接在代码栏输入四轴调平命令尝试几次，看看能否调平。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;g-code&#34;&gt;Quad_Gantry_Level 
+&lt;pre&gt;&lt;code class=&#34;language-g-code&#34;&gt;Quad_Gantry_Level 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;如果还是不能调平，则应该是皮带过于松的问题，请联系我维修。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;问题:      打印机失去响应&lt;/p&gt;
-&lt;p&gt;方案：  &lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659014613316.png&#34; alt=&#34;1659014613316&#34;&gt;&lt;/p&gt;
-&lt;p&gt;尝试点击RESTART KLIPPER和 FIRMWARE RESTART。如果是因为按下了voron的急停键，则重启所有电源。&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;问题：打印机失去响应&lt;/p&gt;
+&lt;p&gt;方案：  &lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1659014613316.png&#34; alt=&#34;1659014613316&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;尝试点击 RESTART KLIPPER 和 FIRMWARE RESTART。如果是因为按下了 voron 的急停键，则重启所有电源。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;问题：打印机发出咔哒声&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;问题：打印机发出咔哒声&lt;/p&gt;
 &lt;p&gt;方案：换耗材的时候耗材没有成功进入挤出机，建议把耗材剪出三角口后再伸入尝试。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;问题：机器回零的时候疯狂抖动&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;问题：机器回零的时候疯狂抖动&lt;/p&gt;
 &lt;p&gt;方案：应该是限位开关被线路挡住了导致限位开关无法触发，把电线拨开重新运行即可。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -153,24 +182,17 @@ Quad_Gantry_Level           //4轴调平
         <updated>2023-03-16T15:32:47.029Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</id>
+        <id>https://jy-geeker.top/computer-science/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</id>
         <title>python pandas画图无响应</title>
-        <link rel="alternate" href="https://jy-geeker.top/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/"/>
-        <content type="html">&lt;h1 id=&#34;python-pandas无法画图，画图弹窗死机，Backend-QtAgg-is-interactive-backend-Turning-interactive-mode-on&#34;&gt;&lt;a href=&#34;#python-pandas无法画图，画图弹窗死机，Backend-QtAgg-is-interactive-backend-Turning-interactive-mode-on&#34; class=&#34;headerlink&#34; title=&#34;python pandas无法画图，画图弹窗死机，Backend QtAgg is interactive backend. Turning interactive mode on.&#34;&gt;&lt;/a&gt;python pandas无法画图，画图弹窗死机，Backend QtAgg is interactive backend. Turning interactive mode on.&lt;/h1&gt;&lt;p&gt;初学pandas，操作还不熟练，然后在运行下面这个代码时遇到了一个坑，来分享一下解决方法。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-
-df = pd.DataFrame(np.random.rand(20,2),columns=[&amp;#39;x&amp;#39;,&amp;#39;y&amp;#39;])
-df.plot(kind=&amp;#39;scatter&amp;#39;,x=&amp;#39;x&amp;#39;,y=&amp;#39;y&amp;#39;)
-plt.show()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;运行时控制台有这样的提示：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Backend QtAgg is interactive backend. Turning interactive mode on.&lt;/code&gt;当时百度了一下发现大家说什么强迫症想要去掉这个报错，误以为这个报错不影响结果，就没放心上，然后就被坑了好久，画的图一直未响应。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963382121.png&#34; alt=&#34;1678963382121&#34;&gt;&lt;/p&gt;
-&lt;p&gt;其实这个问题很好解决，点击菜单栏的运行，选择编辑配置，在执行处取消勾选&amp;#96;使用Python控制台运行。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963487910.png&#34; alt=&#34;1678963487910&#34;&gt;&lt;/p&gt;
-&lt;p&gt;之后图片就能正常弹出了。如果执行程序后没反应，那就是忘加了&lt;code&gt;plt.show()&lt;/code&gt;&lt;/p&gt;
+        <link rel="alternate" href="https://jy-geeker.top/computer-science/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/"/>
+        <content type="html">&lt;h1 id=&#34;python-pandas无法画图画图弹窗死机backend-qtagg-is-interactive-backend-turning-interactive-mode-on&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python-pandas无法画图画图弹窗死机backend-qtagg-is-interactive-backend-turning-interactive-mode-on&#34;&gt;#&lt;/a&gt; python pandas 无法画图，画图弹窗死机，Backend QtAgg is interactive backend. Turning interactive mode on.&lt;/h1&gt;
+&lt;p&gt;初学 pandas，操作还不熟练，然后在运行下面这个代码时遇到了一个坑，来分享一下解决方法。&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; matplotlib&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pyplot &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; plt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;DataFrame&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;random&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rand&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;columns&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;x&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;y&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;kind&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;scatter&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;x&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;y&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;show&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;运行时控制台有这样的提示：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Backend QtAgg is interactive backend. Turning interactive mode on.&lt;/code&gt;  当时百度了一下发现大家说什么强迫症想要去掉这个报错，误以为这个报错不影响结果，就没放心上，然后就被坑了好久，画的图一直未响应。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963382121.png&#34; alt=&#34;1678963382121&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;其实这个问题很好解决，点击菜单栏的运行，选择编辑配置，在执行处取消勾选 ` 使用 Python 控制台运行。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963487910.png&#34; alt=&#34;1678963487910&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之后图片就能正常弹出了。如果执行程序后没反应，那就是忘加了 &lt;code&gt;plt.show()&lt;/code&gt;&lt;/p&gt;
 </content>
         <category term="python" scheme="https://jy-geeker.top/tags/python/" />
         <category term="pandas" scheme="https://jy-geeker.top/tags/pandas/" />
@@ -181,18 +203,15 @@ plt.show()
         <title>Hello World</title>
         <link rel="alternate" href="https://jy-geeker.top/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo new &amp;quot;My New Post&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo server
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo generate
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;$ hexo deploy
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
 </content>
         <updated>2023-03-09T15:55:03.087Z</updated>
     </entry>
