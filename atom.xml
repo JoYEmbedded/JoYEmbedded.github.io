@@ -8,17 +8,9 @@
     <author>
       <name>-J丶Y</name>
     </author>
-    <updated>2023-04-01T10:19:17.237Z</updated>
+    <updated>2023-03-31T08:32:40.405Z</updated>
     <category term="关键词1" />
     <category term="关键词2" />
-    <entry>
-        <id>https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</id>
-        <title></title>
-        <link rel="alternate" href="https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/"/>
-        <content type="html">&lt;h1 id=&#34;Qt控件突然无法识别，突然显示某个控件不存在的解决方案&#34;&gt;&lt;a href=&#34;#Qt控件突然无法识别，突然显示某个控件不存在的解决方案&#34; class=&#34;headerlink&#34; title=&#34;Qt控件突然无法识别，突然显示某个控件不存在的解决方案&#34;&gt;&lt;/a&gt;Qt控件突然无法识别，突然显示某个控件不存在的解决方案&lt;/h1&gt;&lt;p&gt;某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现Qt突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。&lt;/p&gt;
-</content>
-        <updated>2023-04-01T10:19:17.237Z</updated>
-    </entry>
     <entry>
         <id>https://jy-geeker.top/open%20source%20project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
         <title>shoka配置心得</title>
@@ -204,6 +196,16 @@ Quad_Gantry_Level           //4轴调平
 </content>
         <category term="python" scheme="https://jy-geeker.top/tags/python/" />
         <category term="pandas" scheme="https://jy-geeker.top/tags/pandas/" />
+        <updated>2023-03-16T11:23:04.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</id>
+        <title>python pandas画图无响应</title>
+        <link rel="alternate" href="https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/"/>
+        <content type="html">&lt;h1 id=&#34;qt控件突然无法识别突然显示某个控件不存在的解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#qt控件突然无法识别突然显示某个控件不存在的解决方案&#34;&gt;#&lt;/a&gt; Qt 控件突然无法识别，突然显示某个控件不存在的解决方案&lt;/h1&gt;
+&lt;p&gt;某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt 会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现 Qt 突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。&lt;/p&gt;
+</content>
+        <category term="Qt" scheme="https://jy-geeker.top/tags/Qt/" />
         <updated>2023-03-16T11:23:04.000Z</updated>
     </entry>
     <entry>

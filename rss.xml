@@ -10,18 +10,10 @@
         </author>
         <description>描述123</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 01 Apr 2023 18:19:17 +0800</pubDate>
-        <lastBuildDate>Sat, 01 Apr 2023 18:19:17 +0800</lastBuildDate>
+        <pubDate>Fri, 31 Mar 2023 16:32:40 +0800</pubDate>
+        <lastBuildDate>Fri, 31 Mar 2023 16:32:40 +0800</lastBuildDate>
         <category term="关键词1" />
         <category term="关键词2" />
-        <item>
-            <guid isPermalink="true">https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</guid>
-            <title></title>
-            <link>https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</link>
-            <pubDate>Sat, 01 Apr 2023 18:19:17 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;Qt控件突然无法识别，突然显示某个控件不存在的解决方案&#34;&gt;&lt;a href=&#34;#Qt控件突然无法识别，突然显示某个控件不存在的解决方案&#34; class=&#34;headerlink&#34; title=&#34;Qt控件突然无法识别，突然显示某个控件不存在的解决方案&#34;&gt;&lt;/a&gt;Qt控件突然无法识别，突然显示某个控件不存在的解决方案&lt;/h1&gt;&lt;p&gt;某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现Qt突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。&lt;/p&gt;
- ]]></description>
-        </item>
         <item>
             <guid isPermalink="true">https://jy-geeker.top/open%20source%20project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</guid>
             <title>shoka配置心得</title>
@@ -207,6 +199,16 @@ Quad_Gantry_Level           //4轴调平
 &lt;p&gt;其实这个问题很好解决，点击菜单栏的运行，选择编辑配置，在执行处取消勾选 ` 使用 Python 控制台运行。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963487910.png&#34; alt=&#34;1678963487910&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;之后图片就能正常弹出了。如果执行程序后没反应，那就是忘加了 &lt;code&gt;plt.show()&lt;/code&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</guid>
+            <title>python pandas画图无响应</title>
+            <link>https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</link>
+            <category term="Qt" scheme="https://jy-geeker.top/tags/Qt/" />
+            <pubDate>Thu, 16 Mar 2023 19:23:04 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;qt控件突然无法识别突然显示某个控件不存在的解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#qt控件突然无法识别突然显示某个控件不存在的解决方案&#34;&gt;#&lt;/a&gt; Qt 控件突然无法识别，突然显示某个控件不存在的解决方案&lt;/h1&gt;
+&lt;p&gt;某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt 会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现 Qt 突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
