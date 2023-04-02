@@ -7,6 +7,14 @@
     "home_page_url": "https://jy-geeker.top",
     "items": [
         {
+            "id": "https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/",
+            "url": "https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/",
+            "title": "",
+            "date_published": "2023-04-01T10:19:17.237Z",
+            "content_html": "<h1 id=\"Qt控件突然无法识别，突然显示某个控件不存在的解决方案\"><a href=\"#Qt控件突然无法识别，突然显示某个控件不存在的解决方案\" class=\"headerlink\" title=\"Qt控件突然无法识别，突然显示某个控件不存在的解决方案\"></a>Qt控件突然无法识别，突然显示某个控件不存在的解决方案</h1><p>某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现Qt突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。</p>\n",
+            "tags": []
+        },
+        {
             "id": "https://jy-geeker.top/open%20source%20project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/",
             "url": "https://jy-geeker.top/open%20source%20project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/",
             "title": "shoka配置心得",
