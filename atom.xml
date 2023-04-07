@@ -21,6 +21,8 @@
 &lt;h2 id=&#34;新加控件以后代码无法自动补全新加的控件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新加控件以后代码无法自动补全新加的控件&#34;&gt;#&lt;/a&gt; 新加控件以后代码无法自动补全新加的控件&lt;/h2&gt;
 &lt;p&gt;这是因为 Qt 它对于新加的控件是存在延时反应的，加入新的控件以后它的相关配置文件没有得到及时的更新。要想要实现代码能够自动补全新加的控件，可以选择重新构建。&lt;/p&gt;
 </content>
+        <category term="计算机科学" scheme="https://jy-geeker.top/categories/computer-science/" />
+        <category term="Qt" scheme="https://jy-geeker.top/categories/computer-science/Qt/" />
         <category term="Qt" scheme="https://jy-geeker.top/tags/Qt/" />
         <updated>2023-04-02T07:23:53.000Z</updated>
     </entry>
@@ -87,6 +89,8 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
+        <category term="开源项目" scheme="https://jy-geeker.top/categories/open-source-project/" />
+        <category term="shoka" scheme="https://jy-geeker.top/categories/open-source-project/shoka/" />
         <category term="shoka" scheme="https://jy-geeker.top/tags/shoka/" />
         <category term="PicGo" scheme="https://jy-geeker.top/tags/PicGo/" />
         <updated>2023-03-31T08:32:40.405Z</updated>
@@ -201,6 +205,7 @@ Quad_Gantry_Level           //4轴调平
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
+        <category term="开源项目" scheme="https://jy-geeker.top/categories/open-source-project/" />
         <category term="voron" scheme="https://jy-geeker.top/tags/voron/" />
         <category term="3D打印机" scheme="https://jy-geeker.top/tags/3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
         <updated>2023-03-16T15:32:47.029Z</updated>
@@ -218,6 +223,8 @@ Quad_Gantry_Level           //4轴调平
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963487910.png&#34; alt=&#34;1678963487910&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;之后图片就能正常弹出了。如果执行程序后没反应，那就是忘加了 &lt;code&gt;plt.show()&lt;/code&gt;&lt;/p&gt;
 </content>
+        <category term="计算机科学" scheme="https://jy-geeker.top/categories/computer-science/" />
+        <category term="python" scheme="https://jy-geeker.top/categories/computer-science/python/" />
         <category term="python" scheme="https://jy-geeker.top/tags/python/" />
         <category term="pandas" scheme="https://jy-geeker.top/tags/pandas/" />
         <updated>2023-03-16T11:23:04.000Z</updated>
