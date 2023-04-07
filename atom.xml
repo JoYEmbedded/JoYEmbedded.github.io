@@ -92,6 +92,17 @@
         <updated>2023-03-31T08:32:40.405Z</updated>
     </entry>
     <entry>
+        <id>https://jy-geeker.top/categories/</id>
+        <title>Categories</title>
+        <link rel="alternate" href="https://jy-geeker.top/categories/"/>
+        <content type="html">&lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
+</content>
+        <category term="computer-assigned-design-or-animation" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/" />
+        <category term="computer-science" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/computer-science/" />
+        <category term="open-source-project" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/computer-science/open-source-project/" />
+        <updated>2023-03-24T15:30:09.000Z</updated>
+    </entry>
+    <entry>
         <id>https://jy-geeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</id>
         <title>voron操作指南</title>
         <link rel="alternate" href="https://jy-geeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/"/>
@@ -227,16 +238,5 @@ Quad_Gantry_Level           //4轴调平
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
 </content>
         <updated>2023-03-09T15:55:03.087Z</updated>
-    </entry>
-    <entry>
-        <id>https://jy-geeker.top/categories/</id>
-        <title>Categories</title>
-        <link rel="alternate" href="https://jy-geeker.top/categories/"/>
-        <content type="html">&lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
-</content>
-        <category term="computer-assigned-design-or-animation" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/" />
-        <category term="computer-science" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/computer-science/" />
-        <category term="open-source-project" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/computer-science/open-source-project/" />
-        <updated>2013-12-24T15:30:09.000Z</updated>
     </entry>
 </feed>
