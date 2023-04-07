@@ -96,17 +96,6 @@
         <updated>2023-03-31T08:32:40.405Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/categories/</id>
-        <title>Categories</title>
-        <link rel="alternate" href="https://jy-geeker.top/categories/"/>
-        <content type="html">&lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
-</content>
-        <category term="computer-assigned-design-or-animation" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/" />
-        <category term="computer-science" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/computer-science/" />
-        <category term="open-source-project" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/computer-science/open-source-project/" />
-        <updated>2023-03-24T15:30:09.000Z</updated>
-    </entry>
-    <entry>
         <id>https://jy-geeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</id>
         <title>voron操作指南</title>
         <link rel="alternate" href="https://jy-geeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/"/>
