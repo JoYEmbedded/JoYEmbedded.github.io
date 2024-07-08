@@ -10,10 +10,87 @@
         </author>
         <description>描述123</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 11 Apr 2023 14:29:53 +0800</pubDate>
-        <lastBuildDate>Tue, 11 Apr 2023 14:29:53 +0800</lastBuildDate>
+        <pubDate>Sun, 23 Jul 2023 19:57:11 +0800</pubDate>
+        <lastBuildDate>Sun, 23 Jul 2023 19:57:11 +0800</lastBuildDate>
         <category term="关键词1" />
         <category term="关键词2" />
+        <item>
+            <guid isPermalink="true">https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</guid>
+            <title>shoka配置心得</title>
+            <link>https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</link>
+            <category term="开源项目" scheme="https://jygeeker.top/categories/open-source-project/" />
+            <category term="shoka" scheme="https://jygeeker.top/categories/open-source-project/shoka/" />
+            <category term="shoka" scheme="https://jygeeker.top/tags/shoka/" />
+            <category term="PicGo" scheme="https://jygeeker.top/tags/PicGo/" />
+            <pubDate>Sun, 23 Jul 2023 19:57:11 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
+&lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
+&lt;p&gt;最主要是 &lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;  里的 &lt;code&gt;menu&lt;/code&gt;  那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/root/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.yml&lt;/code&gt;  对应&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/root/themes/shoka/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.shoka.yml&lt;/code&gt;  对应&lt;/p&gt;
+&lt;h2 id=&#34;http-502-error&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#http-502-error&#34;&gt;#&lt;/a&gt; http 502 error&lt;/h2&gt;
+&lt;p&gt;这个问题主要由 DNS 解析配置错误导致。当使用 github 的 pages 来展示网页时，对应的 DNS 解析的记录值要更改为 github 对应的 IP。具体操作为：对 DNS 的 A 记录配置为以下 4 个 IP 中的一个。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97.assets/image-20240708191347566.png&#34; alt=&#34;image-20240708191347566&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;local显示正常域名访问图片无法显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#local显示正常域名访问图片无法显示&#34;&gt;#&lt;/a&gt; local 显示正常，域名访问图片无法显示&lt;/h2&gt;
+&lt;p&gt;这个 bug 比较奇怪，我不清楚我这个解决方案是否正确。我是除了 hello world.md 文件以外，又上传了一篇博客，然后全部图片就能正常显示了，仅供参考。&lt;/p&gt;
+&lt;h2 id=&#34;每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;#&lt;/a&gt; 每次 hexo d 之后 github page 都要重新设置一下域名&lt;/h2&gt;
+&lt;p&gt;解决方案：在 &lt;code&gt;/root/source&lt;/code&gt;  新建 CNAME，里面仅输入域名，如 jy-geeker.top (不要加 http 或者 www)&lt;/p&gt;
+&lt;h1 id=&#34;配置解析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置解析&#34;&gt;#&lt;/a&gt; 配置解析&lt;/h1&gt;
+&lt;h2 id=&#34;自定义图库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义图库&#34;&gt;#&lt;/a&gt; 自定义图库&lt;/h2&gt;
+&lt;h3 id=&#34;方法1-借用gimhoy图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法1-借用gimhoy图床&#34;&gt;#&lt;/a&gt; 方法 1 借用 GimHoy 图床&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waWMuZ2ltaG95LmNvbS8=&#34;&gt;Gimhoy 图床 | 无限制永久免费图床 - 微博图床 - 全网 CDN - 永久外链图床 - tuchuang - 图片外链 - 外链相册 - 国内图床 - 论坛图片 - 淘宝图片 | pic.Gimhoy.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;上传图片后记录每个图片链接的最后一串信息（参考 themes/shoka 目录下的_images.yml)，图片要至少 10 张左右。如果在 yml 文件中最后一行多打了 - 则会报错。&lt;/p&gt;
+&lt;p&gt;用这一图床图片右下角会有水印。不推荐&lt;/p&gt;
+&lt;h3 id=&#34;方法2-借用picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法2-借用picgo&#34;&gt;#&lt;/a&gt; 方法 2 借用 PicGo&lt;/h3&gt;
+&lt;p&gt;PicGo 直接用 github 可不可行我不清楚，下面介绍用 PicGo 插件 &lt;code&gt;github-plus&lt;/code&gt; 。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;下载方式为 PicGo 的 plugins settings 搜索并下载&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;githubPlus 的 repo 填写用户名 / 仓库名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;branch 注意是 main 还是 master，github 自动生成为 main&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;token 在 github 的右上角头像点击 settings-&amp;gt;Developer settings (最左下角)-&amp;gt;Personal access tokens-&amp;gt;token (classic)-&amp;gt;generate new token-&amp;gt;classic-&amp;gt;note 自己填 -&amp;gt; 注意勾选 repo 然后滚到最下面 Generate token (发现忘记勾选 repo 时重新回到这界面一定要记得勾选后滚到最下面保存！！！)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设置代理（不清楚要不要这一步，可能会快一点），以 clash 为例，为 127.0.0.1：7890&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678885687604.png&#34; alt=&#34;1678885687604&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;md文件中的图片无法正常显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#md文件中的图片无法正常显示&#34;&gt;#&lt;/a&gt; md 文件中的图片无法正常显示&lt;/h2&gt;
+&lt;p&gt;可以参考 github 上的这个脚本，这个脚本的前提条件是你用的图床工具 PicGo 已经配置好了，具体配置说明请看 &lt;code&gt;自定义图库&lt;/code&gt; 的方法 2。此外，在运行程序前，请确保 PicGo 已经启动。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0pIZXgtZ2l0L01kUGljQmF0Y2hVcGxvYWRlcg==&#34;&gt;JHex-git/MdPicBatchUploader: 基于 PicGo 将 md 文件里所有的本地图像一键批量上传并更新图像链接的 python 脚本 (github.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;执行程序后，把各路径输入后，它会在你输入的文件路径下生成两个 output 文件，把这两个文件剪贴到 &lt;code&gt;/root/source/_posts/&lt;/code&gt;  下后重新生成博客即可正常显示图片。&lt;/p&gt;
+&lt;h2 id=&#34;百度收录网站暂未解决&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#百度收录网站暂未解决&#34;&gt;#&lt;/a&gt; 百度收录网站（暂未解决）&lt;/h2&gt;
+&lt;p&gt;到百度的站长工具中，选择文件验证方式，将下载得到的文件置于 &lt;code&gt;/themes/shoka/source&lt;/code&gt;  里，注意不要放在 &lt;code&gt;/root/source&lt;/code&gt;  中，否则会显示 404。（此处不推荐 HTML 标签验证，本人尝试许久仍未解决）。放置文件后重新布置网页，点击 &lt;code&gt;点击这里&lt;/code&gt;  (蓝字) 则能够正确跳转到网站。此时网页内容仅为一行字加空白底色。如果此前操作过 HTML 标签验证可能会存在仍显示目标主题的一行字。但此时仍存在验证失败的问题。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680247331322.png&#34; alt=&#34;1680247331322&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;谷歌收录网站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#谷歌收录网站&#34;&gt;#&lt;/a&gt; 谷歌收录网站&lt;/h2&gt;
+&lt;p&gt;谷歌收录相比百度简单不少，流程也快很多。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;进入网址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWFyY2guZ29vZ2xlLmNvbS9zZWFyY2gtY29uc29sZS93ZWxjb21l&#34;&gt; https://search.google.com/search-console/welcome&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择右侧资源类型，即网址前缀，输入你要收录的网址，如 &lt;code&gt;https://jy-geeker.top&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选用文件验证方式，下载相关验证文件，放在 &lt;code&gt;/themes/shoka/source&lt;/code&gt;  下，重新布置网站。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待 3min 左右，进行验证，验证成功如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680250509975.png&#34; alt=&#34;1680250509975&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://jygeeker.top/computer-assigned-design-or-animation/cad%E5%85%A5%E9%97%A8/</guid>
             <title>从SolidWorks入门Autocad2016教程</title>
@@ -154,75 +231,6 @@
 &lt;p&gt;某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt 会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现 Qt 突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。&lt;/p&gt;
 &lt;h2 id=&#34;新加控件以后代码无法自动补全新加的控件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新加控件以后代码无法自动补全新加的控件&#34;&gt;#&lt;/a&gt; 新加控件以后代码无法自动补全新加的控件&lt;/h2&gt;
 &lt;p&gt;这是因为 Qt 它对于新加的控件是存在延时反应的，加入新的控件以后它的相关配置文件没有得到及时的更新。要想要实现代码能够自动补全新加的控件，可以选择重新构建。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</guid>
-            <title>shoka配置心得</title>
-            <link>https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</link>
-            <category term="开源项目" scheme="https://jygeeker.top/categories/open-source-project/" />
-            <category term="shoka" scheme="https://jygeeker.top/categories/open-source-project/shoka/" />
-            <category term="shoka" scheme="https://jygeeker.top/tags/shoka/" />
-            <category term="PicGo" scheme="https://jygeeker.top/tags/PicGo/" />
-            <pubDate>Fri, 31 Mar 2023 16:32:40 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
-&lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
-&lt;p&gt;最主要是 &lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;  里的 &lt;code&gt;menu&lt;/code&gt;  那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;/root/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.yml&lt;/code&gt;  对应&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;/root/themes/shoka/_config.yml&lt;/code&gt;  与 &lt;code&gt;/root/themes/shoka/example/_config.shoka.yml&lt;/code&gt;  对应&lt;/p&gt;
-&lt;h2 id=&#34;local显示正常域名访问图片无法显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#local显示正常域名访问图片无法显示&#34;&gt;#&lt;/a&gt; local 显示正常，域名访问图片无法显示&lt;/h2&gt;
-&lt;p&gt;这个 bug 比较奇怪，我不清楚我这个解决方案是否正确。我是除了 hello world.md 文件以外，又上传了一篇博客，然后全部图片就能正常显示了，仅供参考。&lt;/p&gt;
-&lt;h2 id=&#34;每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;#&lt;/a&gt; 每次 hexo d 之后 github page 都要重新设置一下域名&lt;/h2&gt;
-&lt;p&gt;解决方案：在 &lt;code&gt;/root/source&lt;/code&gt;  新建 CNAME，里面仅输入域名，如 jy-geeker.top (不要加 http 或者 www)&lt;/p&gt;
-&lt;h1 id=&#34;配置解析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置解析&#34;&gt;#&lt;/a&gt; 配置解析&lt;/h1&gt;
-&lt;h2 id=&#34;自定义图库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义图库&#34;&gt;#&lt;/a&gt; 自定义图库&lt;/h2&gt;
-&lt;h3 id=&#34;方法1-借用gimhoy图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法1-借用gimhoy图床&#34;&gt;#&lt;/a&gt; 方法 1 借用 GimHoy 图床&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9waWMuZ2ltaG95LmNvbS8=&#34;&gt;Gimhoy 图床 | 无限制永久免费图床 - 微博图床 - 全网 CDN - 永久外链图床 - tuchuang - 图片外链 - 外链相册 - 国内图床 - 论坛图片 - 淘宝图片 | pic.Gimhoy.com&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;上传图片后记录每个图片链接的最后一串信息（参考 themes/shoka 目录下的_images.yml)，图片要至少 10 张左右。如果在 yml 文件中最后一行多打了 - 则会报错。&lt;/p&gt;
-&lt;p&gt;用这一图床图片右下角会有水印。不推荐&lt;/p&gt;
-&lt;h3 id=&#34;方法2-借用picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法2-借用picgo&#34;&gt;#&lt;/a&gt; 方法 2 借用 PicGo&lt;/h3&gt;
-&lt;p&gt;PicGo 直接用 github 可不可行我不清楚，下面介绍用 PicGo 插件 &lt;code&gt;github-plus&lt;/code&gt; 。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;下载方式为 PicGo 的 plugins settings 搜索并下载&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;githubPlus 的 repo 填写用户名 / 仓库名&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;branch 注意是 main 还是 master，github 自动生成为 main&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;token 在 github 的右上角头像点击 settings-&amp;gt;Developer settings (最左下角)-&amp;gt;Personal access tokens-&amp;gt;token (classic)-&amp;gt;generate new token-&amp;gt;classic-&amp;gt;note 自己填 -&amp;gt; 注意勾选 repo 然后滚到最下面 Generate token (发现忘记勾选 repo 时重新回到这界面一定要记得勾选后滚到最下面保存！！！)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;设置代理（不清楚要不要这一步，可能会快一点），以 clash 为例，为 127.0.0.1：7890&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678885687604.png&#34; alt=&#34;1678885687604&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;md文件中的图片无法正常显示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#md文件中的图片无法正常显示&#34;&gt;#&lt;/a&gt; md 文件中的图片无法正常显示&lt;/h2&gt;
-&lt;p&gt;可以参考 github 上的这个脚本，这个脚本的前提条件是你用的图床工具 PicGo 已经配置好了，具体配置说明请看 &lt;code&gt;自定义图库&lt;/code&gt; 的方法 2。此外，在运行程序前，请确保 PicGo 已经启动。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0pIZXgtZ2l0L01kUGljQmF0Y2hVcGxvYWRlcg==&#34;&gt;JHex-git/MdPicBatchUploader: 基于 PicGo 将 md 文件里所有的本地图像一键批量上传并更新图像链接的 python 脚本 (github.com)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;执行程序后，把各路径输入后，它会在你输入的文件路径下生成两个 output 文件，把这两个文件剪贴到 &lt;code&gt;/root/source/_posts/&lt;/code&gt;  下后重新生成博客即可正常显示图片。&lt;/p&gt;
-&lt;h2 id=&#34;百度收录网站暂未解决&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#百度收录网站暂未解决&#34;&gt;#&lt;/a&gt; 百度收录网站（暂未解决）&lt;/h2&gt;
-&lt;p&gt;到百度的站长工具中，选择文件验证方式，将下载得到的文件置于 &lt;code&gt;/themes/shoka/source&lt;/code&gt;  里，注意不要放在 &lt;code&gt;/root/source&lt;/code&gt;  中，否则会显示 404。（此处不推荐 HTML 标签验证，本人尝试许久仍未解决）。放置文件后重新布置网页，点击 &lt;code&gt;点击这里&lt;/code&gt;  (蓝字) 则能够正确跳转到网站。此时网页内容仅为一行字加空白底色。如果此前操作过 HTML 标签验证可能会存在仍显示目标主题的一行字。但此时仍存在验证失败的问题。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680247331322.png&#34; alt=&#34;1680247331322&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;谷歌收录网站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#谷歌收录网站&#34;&gt;#&lt;/a&gt; 谷歌收录网站&lt;/h2&gt;
-&lt;p&gt;谷歌收录相比百度简单不少，流程也快很多。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;进入网址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWFyY2guZ29vZ2xlLmNvbS9zZWFyY2gtY29uc29sZS93ZWxjb21l&#34;&gt; https://search.google.com/search-console/welcome&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;选择右侧资源类型，即网址前缀，输入你要收录的网址，如 &lt;code&gt;https://jy-geeker.top&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;选用文件验证方式，下载相关验证文件，放在 &lt;code&gt;/themes/shoka/source&lt;/code&gt;  下，重新布置网站。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;等待 3min 左右，进行验证，验证成功如下图所示。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1680250509975.png&#34; alt=&#34;1680250509975&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
