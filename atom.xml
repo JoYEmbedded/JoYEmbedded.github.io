@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jy-geeker.top</id>
+    <id>https://jygeeker.top</id>
     <title>-J丶Y的技术栈道</title>
     <subtitle>望月阁</subtitle>
-    <icon>https://jy-geeker.top/images/favicon.ico</icon>
-    <link href="https://jy-geeker.top" />
+    <icon>https://jygeeker.top/images/favicon.ico</icon>
+    <link href="https://jygeeker.top" />
     <author>
       <name>-J丶Y</name>
     </author>
@@ -12,9 +12,9 @@
     <category term="关键词1" />
     <category term="关键词2" />
     <entry>
-        <id>https://jy-geeker.top/computer-assigned-design-or-animation/cad%E5%85%A5%E9%97%A8/</id>
+        <id>https://jygeeker.top/computer-assigned-design-or-animation/cad%E5%85%A5%E9%97%A8/</id>
         <title>从SolidWorks入门Autocad2016教程</title>
-        <link rel="alternate" href="https://jy-geeker.top/computer-assigned-design-or-animation/cad%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://jygeeker.top/computer-assigned-design-or-animation/cad%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;h1 id=&#34;从solidworks入门autocad2016教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#从solidworks入门autocad2016教程&#34;&gt;#&lt;/a&gt; 从 SolidWorks 入门 Autocad2016 教程&lt;/h1&gt;
 &lt;h2 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h2&gt;
 &lt;p&gt;用惯了 solidworks 的朋友们可能刚接触 autocad 时会很不习惯，因此笔者希望通过这篇博客帮助读者尽快入门 CAD。笔者的 AutoCAD 水平也不高，且是机械专业学生，只会绘制基础的机械装配图，无法给其他专业同学带来较多启发，故仅作参考。&lt;/p&gt;
@@ -133,30 +133,30 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;正篇打印&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正篇打印&#34;&gt;#&lt;/a&gt; 正篇・打印&lt;/h2&gt;
 </content>
-        <category term="三维建模及动画" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/" />
-        <category term="AutoCAD" scheme="https://jy-geeker.top/categories/computer-assigned-design-or-animation/AutoCAD/" />
-        <category term="AutoCAD" scheme="https://jy-geeker.top/tags/AutoCAD/" />
+        <category term="三维建模及动画" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/" />
+        <category term="AutoCAD" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/AutoCAD/" />
+        <category term="AutoCAD" scheme="https://jygeeker.top/tags/AutoCAD/" />
         <updated>2023-04-11T06:29:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</id>
+        <id>https://jygeeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/</id>
         <title>Qt控件突然无法识别，突然显示某个控件不存在的解决方案</title>
-        <link rel="alternate" href="https://jy-geeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/"/>
+        <link rel="alternate" href="https://jygeeker.top/computer-science/Qt%E6%8E%A7%E4%BB%B6%E7%AA%81%E7%84%B6%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB/"/>
         <content type="html">&lt;h1 id=&#34;qt控件突然无法识别突然显示某个控件不存在的解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#qt控件突然无法识别突然显示某个控件不存在的解决方案&#34;&gt;#&lt;/a&gt; Qt 控件突然无法识别，突然显示某个控件不存在的解决方案&lt;/h1&gt;
 &lt;h2 id=&#34;并没有新加控件而控件突然无法识别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#并没有新加控件而控件突然无法识别&#34;&gt;#&lt;/a&gt; 并没有新加控件而控件突然无法识别&lt;/h2&gt;
 &lt;p&gt;某个一直使用正常的控件突然显示不存在，可能是由代理造成的。偶尔开了代理之后，Qt 会出现无法识别控件的情况，别问我原因，也别问我怎么知道的，问就是被代理坑了好久，绝望之际随便关了代理发现 Qt 突然弹窗说系统的什么变量已改变，是否要确认，然后选择是之后，就能识别该控件了。&lt;/p&gt;
 &lt;h2 id=&#34;新加控件以后代码无法自动补全新加的控件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新加控件以后代码无法自动补全新加的控件&#34;&gt;#&lt;/a&gt; 新加控件以后代码无法自动补全新加的控件&lt;/h2&gt;
 &lt;p&gt;这是因为 Qt 它对于新加的控件是存在延时反应的，加入新的控件以后它的相关配置文件没有得到及时的更新。要想要实现代码能够自动补全新加的控件，可以选择重新构建。&lt;/p&gt;
 </content>
-        <category term="计算机科学" scheme="https://jy-geeker.top/categories/computer-science/" />
-        <category term="Qt" scheme="https://jy-geeker.top/categories/computer-science/Qt/" />
-        <category term="Qt" scheme="https://jy-geeker.top/tags/Qt/" />
+        <category term="计算机科学" scheme="https://jygeeker.top/categories/computer-science/" />
+        <category term="Qt" scheme="https://jygeeker.top/categories/computer-science/Qt/" />
+        <category term="Qt" scheme="https://jygeeker.top/tags/Qt/" />
         <updated>2023-04-02T07:23:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
+        <id>https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
         <title>shoka配置心得</title>
-        <link rel="alternate" href="https://jy-geeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/"/>
+        <link rel="alternate" href="https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/"/>
         <content type="html">&lt;h1 id=&#34;常见bug解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见bug解决方案&#34;&gt;#&lt;/a&gt; 常见 bug 解决方案&lt;/h1&gt;
 &lt;h2 id=&#34;shoka-配置后显示不全的原因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shoka-配置后显示不全的原因&#34;&gt;#&lt;/a&gt; shoka 配置后显示不全的原因&lt;/h2&gt;
 &lt;p&gt;最主要是 &lt;code&gt;/themes/shoka/_config.yml&lt;/code&gt;  里的 &lt;code&gt;menu&lt;/code&gt;  那一系列没有取消注释，可以对照着好好操作。&lt;/p&gt;
@@ -216,16 +216,16 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="开源项目" scheme="https://jy-geeker.top/categories/open-source-project/" />
-        <category term="shoka" scheme="https://jy-geeker.top/categories/open-source-project/shoka/" />
-        <category term="shoka" scheme="https://jy-geeker.top/tags/shoka/" />
-        <category term="PicGo" scheme="https://jy-geeker.top/tags/PicGo/" />
+        <category term="开源项目" scheme="https://jygeeker.top/categories/open-source-project/" />
+        <category term="shoka" scheme="https://jygeeker.top/categories/open-source-project/shoka/" />
+        <category term="shoka" scheme="https://jygeeker.top/tags/shoka/" />
+        <category term="PicGo" scheme="https://jygeeker.top/tags/PicGo/" />
         <updated>2023-03-31T08:32:40.405Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</id>
+        <id>https://jygeeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/</id>
         <title>voron操作指南</title>
-        <link rel="alternate" href="https://jy-geeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/"/>
+        <link rel="alternate" href="https://jygeeker.top/open-source-project/voron%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/"/>
         <content type="html">&lt;h1 id=&#34;voron操作指南&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#voron操作指南&#34;&gt;#&lt;/a&gt; voron 操作指南&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1658885309481.png&#34; alt=&#34;1658885309481&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;写在前面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在前面&#34;&gt;#&lt;/a&gt; 写在前面&lt;/h2&gt;
@@ -321,16 +321,16 @@ Quad_Gantry_Level           //4轴调平
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="开源项目" scheme="https://jy-geeker.top/categories/open-source-project/" />
-        <category term="voron3D打印机" scheme="https://jy-geeker.top/categories/open-source-project/voron3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
-        <category term="voron" scheme="https://jy-geeker.top/tags/voron/" />
-        <category term="3D打印机" scheme="https://jy-geeker.top/tags/3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
+        <category term="开源项目" scheme="https://jygeeker.top/categories/open-source-project/" />
+        <category term="voron3D打印机" scheme="https://jygeeker.top/categories/open-source-project/voron3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
+        <category term="voron" scheme="https://jygeeker.top/tags/voron/" />
+        <category term="3D打印机" scheme="https://jygeeker.top/tags/3D%E6%89%93%E5%8D%B0%E6%9C%BA/" />
         <updated>2023-03-16T15:32:47.029Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/computer-science/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</id>
+        <id>https://jygeeker.top/computer-science/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/</id>
         <title>python pandas画图无响应</title>
-        <link rel="alternate" href="https://jy-geeker.top/computer-science/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/"/>
+        <link rel="alternate" href="https://jygeeker.top/computer-science/python-pandas%E7%94%BB%E5%9B%BE%E6%97%A0%E5%93%8D%E5%BA%94/"/>
         <content type="html">&lt;h1 id=&#34;python-pandas无法画图画图弹窗死机backend-qtagg-is-interactive-backend-turning-interactive-mode-on&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python-pandas无法画图画图弹窗死机backend-qtagg-is-interactive-backend-turning-interactive-mode-on&#34;&gt;#&lt;/a&gt; python pandas 无法画图，画图弹窗死机，Backend QtAgg is interactive backend. Turning interactive mode on.&lt;/h1&gt;
 &lt;p&gt;初学 pandas，操作还不熟练，然后在运行下面这个代码时遇到了一个坑，来分享一下解决方法。&lt;/p&gt;
 &lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; matplotlib&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pyplot &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; plt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;DataFrame&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;random&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rand&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;columns&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;x&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;y&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;kind&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;scatter&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;x&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;y&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;show&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;运行时控制台有这样的提示：&lt;/p&gt;
@@ -340,16 +340,16 @@ Quad_Gantry_Level           //4轴调平
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/ZhugeJunyao/web_basic_image/main/1678963487910.png&#34; alt=&#34;1678963487910&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;之后图片就能正常弹出了。如果执行程序后没反应，那就是忘加了 &lt;code&gt;plt.show()&lt;/code&gt;&lt;/p&gt;
 </content>
-        <category term="计算机科学" scheme="https://jy-geeker.top/categories/computer-science/" />
-        <category term="python" scheme="https://jy-geeker.top/categories/computer-science/python/" />
-        <category term="python" scheme="https://jy-geeker.top/tags/python/" />
-        <category term="pandas" scheme="https://jy-geeker.top/tags/pandas/" />
+        <category term="计算机科学" scheme="https://jygeeker.top/categories/computer-science/" />
+        <category term="python" scheme="https://jygeeker.top/categories/computer-science/python/" />
+        <category term="python" scheme="https://jygeeker.top/tags/python/" />
+        <category term="pandas" scheme="https://jygeeker.top/tags/pandas/" />
         <updated>2023-03-16T11:23:04.000Z</updated>
     </entry>
     <entry>
-        <id>https://jy-geeker.top/computer-assigned-design-or-animation/hello-world/</id>
+        <id>https://jygeeker.top/computer-assigned-design-or-animation/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="https://jy-geeker.top/computer-assigned-design-or-animation/hello-world/"/>
+        <link rel="alternate" href="https://jygeeker.top/computer-assigned-design-or-animation/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
