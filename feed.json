@@ -7,6 +7,30 @@
     "home_page_url": "https://jygeeker.top",
     "items": [
         {
+            "id": "https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8/",
+            "url": "https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8/",
+            "title": "AE入门",
+            "date_published": "2024-07-09T01:27:53.000Z",
+            "content_html": "<h1 id=\"快捷键汇总\"><a class=\"anchor\" href=\"#快捷键汇总\">#</a> 快捷键汇总</h1>\n<table>\n<thead>\n<tr>\n<th>快捷键</th>\n<th>作用</th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>P</td>\n<td>位置</td>\n<td></td>\n</tr>\n<tr>\n<td>T</td>\n<td>不透明度</td>\n<td></td>\n</tr>\n<tr>\n<td>S</td>\n<td>缩放</td>\n<td></td>\n</tr>\n<tr>\n<td>R</td>\n<td>旋转</td>\n<td></td>\n</tr>\n<tr>\n<td>G</td>\n<td>钢笔工具，可以用来调整位移直线为曲线</td>\n<td></td>\n</tr>\n<tr>\n<td>。</td>\n<td>放大</td>\n<td></td>\n</tr>\n<tr>\n<td>B</td>\n<td>设置播放起点</td>\n<td></td>\n</tr>\n<tr>\n<td>N</td>\n<td>设置播放终点</td>\n<td></td>\n</tr>\n<tr>\n<td>V</td>\n<td>切换为选择模式（三角形鼠标模式）</td>\n<td></td>\n</tr>\n<tr>\n<td>U</td>\n<td>查看所有关键帧</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+K</td>\n<td>合成设置</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+shift+C</td>\n<td>预合成</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+shift+D</td>\n<td>视频切片</td>\n<td></td>\n</tr>\n<tr>\n<td>alt + 拖动预合成图层到其他图层</td>\n<td>将预合成的图层用原图层的关键帧设置来代替</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+5</td>\n<td>调出效果和预设</td>\n<td></td>\n</tr>\n<tr>\n<td>alt+}</td>\n<td>删掉视频右侧部分</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h1 id=\"常用功能\"><a class=\"anchor\" href=\"#常用功能\">#</a> 常用功能</h1>\n<table>\n<thead>\n<tr>\n<th>抠图</th>\n<th>左上角 Roto 笔刷</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>视频平面定位</td>\n<td>窗口 -&gt; 跟踪器</td>\n</tr>\n<tr>\n<td>显示图层的模式和轨道遮罩</td>\n<td>左下角</td>\n</tr>\n<tr>\n<td>ctrl + 左键左右拖动</td>\n<td>改变画笔大小</td>\n</tr>\n</tbody>\n</table>\n<h1 id=\"视频平面定位\"><a class=\"anchor\" href=\"#视频平面定位\">#</a> 视频平面定位</h1>\n<p>窗口 -&gt; 跟踪器</p>\n<p>未完待续……</p>\n",
+            "tags": [
+                "三维建模及动画",
+                "AutoCAD",
+                "After Effects"
+            ]
+        },
+        {
+            "id": "https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8.md.output/",
+            "url": "https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8.md.output/",
+            "title": "AE入门",
+            "date_published": "2024-07-09T01:27:53.000Z",
+            "content_html": "<h1 id=\"快捷键汇总\"><a class=\"anchor\" href=\"#快捷键汇总\">#</a> 快捷键汇总</h1>\n<table>\n<thead>\n<tr>\n<th>快捷键</th>\n<th>作用</th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>P</td>\n<td>位置</td>\n<td></td>\n</tr>\n<tr>\n<td>T</td>\n<td>不透明度</td>\n<td></td>\n</tr>\n<tr>\n<td>S</td>\n<td>缩放</td>\n<td></td>\n</tr>\n<tr>\n<td>R</td>\n<td>旋转</td>\n<td></td>\n</tr>\n<tr>\n<td>G</td>\n<td>钢笔工具，可以用来调整位移直线为曲线</td>\n<td></td>\n</tr>\n<tr>\n<td>。</td>\n<td>放大</td>\n<td></td>\n</tr>\n<tr>\n<td>B</td>\n<td>设置播放起点</td>\n<td></td>\n</tr>\n<tr>\n<td>N</td>\n<td>设置播放终点</td>\n<td></td>\n</tr>\n<tr>\n<td>V</td>\n<td>切换为选择模式（三角形鼠标模式）</td>\n<td></td>\n</tr>\n<tr>\n<td>U</td>\n<td>查看所有关键帧</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+K</td>\n<td>合成设置</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+shift+C</td>\n<td>预合成</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+shift+D</td>\n<td>视频切片</td>\n<td></td>\n</tr>\n<tr>\n<td>alt + 拖动预合成图层到其他图层</td>\n<td>将预合成的图层用原图层的关键帧设置来代替</td>\n<td></td>\n</tr>\n<tr>\n<td>ctrl+5</td>\n<td>调出效果和预设</td>\n<td></td>\n</tr>\n<tr>\n<td>alt+}</td>\n<td>删掉视频右侧部分</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h1 id=\"常用功能\"><a class=\"anchor\" href=\"#常用功能\">#</a> 常用功能</h1>\n<table>\n<thead>\n<tr>\n<th>抠图</th>\n<th>左上角 Roto 笔刷</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>视频平面定位</td>\n<td>窗口 -&gt; 跟踪器</td>\n</tr>\n<tr>\n<td>显示图层的模式和轨道遮罩</td>\n<td>左下角</td>\n</tr>\n<tr>\n<td>ctrl + 左键左右拖动</td>\n<td>改变画笔大小</td>\n</tr>\n</tbody>\n</table>\n<h1 id=\"视频平面定位\"><a class=\"anchor\" href=\"#视频平面定位\">#</a> 视频平面定位</h1>\n<p>窗口 -&gt; 跟踪器</p>\n<p>未完待续……</p>\n",
+            "tags": [
+                "三维建模及动画",
+                "AutoCAD",
+                "After Effects"
+            ]
+        },
+        {
             "id": "https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/",
             "url": "https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/",
             "title": "shoka配置心得",

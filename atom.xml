@@ -8,9 +8,265 @@
     <author>
       <name>-J丶Y</name>
     </author>
-    <updated>2023-07-23T11:57:11.010Z</updated>
+    <updated>2024-07-09T01:27:53.000Z</updated>
     <category term="关键词1" />
     <category term="关键词2" />
+    <entry>
+        <id>https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8/</id>
+        <title>AE入门</title>
+        <link rel="alternate" href="https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8/"/>
+        <content type="html">&lt;h1 id=&#34;快捷键汇总&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷键汇总&#34;&gt;#&lt;/a&gt; 快捷键汇总&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;P&lt;/td&gt;
+&lt;td&gt;位置&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T&lt;/td&gt;
+&lt;td&gt;不透明度&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;S&lt;/td&gt;
+&lt;td&gt;缩放&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;旋转&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;G&lt;/td&gt;
+&lt;td&gt;钢笔工具，可以用来调整位移直线为曲线&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;。&lt;/td&gt;
+&lt;td&gt;放大&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;设置播放起点&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;N&lt;/td&gt;
+&lt;td&gt;设置播放终点&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;切换为选择模式（三角形鼠标模式）&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;U&lt;/td&gt;
+&lt;td&gt;查看所有关键帧&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+K&lt;/td&gt;
+&lt;td&gt;合成设置&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+shift+C&lt;/td&gt;
+&lt;td&gt;预合成&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+shift+D&lt;/td&gt;
+&lt;td&gt;视频切片&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt + 拖动预合成图层到其他图层&lt;/td&gt;
+&lt;td&gt;将预合成的图层用原图层的关键帧设置来代替&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+5&lt;/td&gt;
+&lt;td&gt;调出效果和预设&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt+}&lt;/td&gt;
+&lt;td&gt;删掉视频右侧部分&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;常用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用功能&#34;&gt;#&lt;/a&gt; 常用功能&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;抠图&lt;/th&gt;
+&lt;th&gt;左上角 Roto 笔刷&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;视频平面定位&lt;/td&gt;
+&lt;td&gt;窗口 -&amp;gt; 跟踪器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;显示图层的模式和轨道遮罩&lt;/td&gt;
+&lt;td&gt;左下角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl + 左键左右拖动&lt;/td&gt;
+&lt;td&gt;改变画笔大小&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;视频平面定位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#视频平面定位&#34;&gt;#&lt;/a&gt; 视频平面定位&lt;/h1&gt;
+&lt;p&gt;窗口 -&amp;gt; 跟踪器&lt;/p&gt;
+&lt;p&gt;未完待续……&lt;/p&gt;
+</content>
+        <category term="三维建模及动画" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/" />
+        <category term="AutoCAD" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/AutoCAD/" />
+        <category term="After Effects" scheme="https://jygeeker.top/tags/After-Effects/" />
+        <updated>2024-07-09T01:27:53.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8.md.output/</id>
+        <title>AE入门</title>
+        <link rel="alternate" href="https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8.md.output/"/>
+        <content type="html">&lt;h1 id=&#34;快捷键汇总&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷键汇总&#34;&gt;#&lt;/a&gt; 快捷键汇总&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;P&lt;/td&gt;
+&lt;td&gt;位置&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T&lt;/td&gt;
+&lt;td&gt;不透明度&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;S&lt;/td&gt;
+&lt;td&gt;缩放&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;旋转&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;G&lt;/td&gt;
+&lt;td&gt;钢笔工具，可以用来调整位移直线为曲线&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;。&lt;/td&gt;
+&lt;td&gt;放大&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;设置播放起点&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;N&lt;/td&gt;
+&lt;td&gt;设置播放终点&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;切换为选择模式（三角形鼠标模式）&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;U&lt;/td&gt;
+&lt;td&gt;查看所有关键帧&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+K&lt;/td&gt;
+&lt;td&gt;合成设置&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+shift+C&lt;/td&gt;
+&lt;td&gt;预合成&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+shift+D&lt;/td&gt;
+&lt;td&gt;视频切片&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt + 拖动预合成图层到其他图层&lt;/td&gt;
+&lt;td&gt;将预合成的图层用原图层的关键帧设置来代替&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+5&lt;/td&gt;
+&lt;td&gt;调出效果和预设&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt+}&lt;/td&gt;
+&lt;td&gt;删掉视频右侧部分&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;常用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用功能&#34;&gt;#&lt;/a&gt; 常用功能&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;抠图&lt;/th&gt;
+&lt;th&gt;左上角 Roto 笔刷&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;视频平面定位&lt;/td&gt;
+&lt;td&gt;窗口 -&amp;gt; 跟踪器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;显示图层的模式和轨道遮罩&lt;/td&gt;
+&lt;td&gt;左下角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl + 左键左右拖动&lt;/td&gt;
+&lt;td&gt;改变画笔大小&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;视频平面定位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#视频平面定位&#34;&gt;#&lt;/a&gt; 视频平面定位&lt;/h1&gt;
+&lt;p&gt;窗口 -&amp;gt; 跟踪器&lt;/p&gt;
+&lt;p&gt;未完待续……&lt;/p&gt;
+</content>
+        <category term="三维建模及动画" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/" />
+        <category term="AutoCAD" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/AutoCAD/" />
+        <category term="After Effects" scheme="https://jygeeker.top/tags/After-Effects/" />
+        <updated>2024-07-09T01:27:53.000Z</updated>
+    </entry>
     <entry>
         <id>https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
         <title>shoka配置心得</title>
