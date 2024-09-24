@@ -140,134 +140,6 @@
         <updated>2024-07-09T01:27:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8.md.output/</id>
-        <title>AE入门</title>
-        <link rel="alternate" href="https://jygeeker.top/computer-assigned-design-or-animation/AE%E5%85%A5%E9%97%A8.md.output/"/>
-        <content type="html">&lt;h1 id=&#34;快捷键汇总&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快捷键汇总&#34;&gt;#&lt;/a&gt; 快捷键汇总&lt;/h1&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;作用&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;P&lt;/td&gt;
-&lt;td&gt;位置&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;T&lt;/td&gt;
-&lt;td&gt;不透明度&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;S&lt;/td&gt;
-&lt;td&gt;缩放&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;R&lt;/td&gt;
-&lt;td&gt;旋转&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;G&lt;/td&gt;
-&lt;td&gt;钢笔工具，可以用来调整位移直线为曲线&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;。&lt;/td&gt;
-&lt;td&gt;放大&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;B&lt;/td&gt;
-&lt;td&gt;设置播放起点&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;N&lt;/td&gt;
-&lt;td&gt;设置播放终点&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;V&lt;/td&gt;
-&lt;td&gt;切换为选择模式（三角形鼠标模式）&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;U&lt;/td&gt;
-&lt;td&gt;查看所有关键帧&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ctrl+K&lt;/td&gt;
-&lt;td&gt;合成设置&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ctrl+shift+C&lt;/td&gt;
-&lt;td&gt;预合成&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ctrl+shift+D&lt;/td&gt;
-&lt;td&gt;视频切片&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;alt + 拖动预合成图层到其他图层&lt;/td&gt;
-&lt;td&gt;将预合成的图层用原图层的关键帧设置来代替&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ctrl+5&lt;/td&gt;
-&lt;td&gt;调出效果和预设&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;alt+}&lt;/td&gt;
-&lt;td&gt;删掉视频右侧部分&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h1 id=&#34;常用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用功能&#34;&gt;#&lt;/a&gt; 常用功能&lt;/h1&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;抠图&lt;/th&gt;
-&lt;th&gt;左上角 Roto 笔刷&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;视频平面定位&lt;/td&gt;
-&lt;td&gt;窗口 -&amp;gt; 跟踪器&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;显示图层的模式和轨道遮罩&lt;/td&gt;
-&lt;td&gt;左下角&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;ctrl + 左键左右拖动&lt;/td&gt;
-&lt;td&gt;改变画笔大小&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h1 id=&#34;视频平面定位&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#视频平面定位&#34;&gt;#&lt;/a&gt; 视频平面定位&lt;/h1&gt;
-&lt;p&gt;窗口 -&amp;gt; 跟踪器&lt;/p&gt;
-&lt;p&gt;未完待续……&lt;/p&gt;
-</content>
-        <category term="三维建模及动画" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/" />
-        <category term="AutoCAD" scheme="https://jygeeker.top/categories/computer-assigned-design-or-animation/AutoCAD/" />
-        <category term="After Effects" scheme="https://jygeeker.top/tags/After-Effects/" />
-        <updated>2024-07-09T01:27:53.000Z</updated>
-    </entry>
-    <entry>
         <id>https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</id>
         <title>shoka配置心得</title>
         <link rel="alternate" href="https://jygeeker.top/open-source-project/shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/"/>
@@ -288,6 +160,25 @@
 &lt;p&gt;这个 bug 比较奇怪，我不清楚我这个解决方案是否正确。我是除了 hello world.md 文件以外，又上传了一篇博客，然后全部图片就能正常显示了，仅供参考。&lt;/p&gt;
 &lt;h2 id=&#34;每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#每次hexo-d之后github-page都要重新设置一下域名&#34;&gt;#&lt;/a&gt; 每次 hexo d 之后 github page 都要重新设置一下域名&lt;/h2&gt;
 &lt;p&gt;解决方案：在 &lt;code&gt;/root/source&lt;/code&gt;  新建 CNAME，里面仅输入域名，如 jy-geeker.top (不要加 http 或者 www)&lt;/p&gt;
+&lt;h1 id=&#34;其他都正常但hexo-d异常&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他都正常但hexo-d异常&#34;&gt;#&lt;/a&gt; 其他都正常，但 hexo d 异常&lt;/h1&gt;
+&lt;p&gt;参考链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzU5MDM5MDYzL2FydGljbGUvZGV0YWlscy8xMzI0NTk0MTg=&#34;&gt;解决使用 Hexo 搭建个人博客遇到的一些问题_hexo d 连不上 github-CSDN 博客&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在 C:\Users\youruser\ .ssh 文件夹下新建 config 文件（不带后缀），打开并输入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Host github.com
+User xxx@qq.com
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+ 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修改 hosts 文件（如果管理员权限也不够可以借助火绒的安全工具下的修改 HOST 文件）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;shoka%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97.assets/image-20240724110436793.png&#34; alt=&#34;image-20240724110436793&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;配置解析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置解析&#34;&gt;#&lt;/a&gt; 配置解析&lt;/h1&gt;
 &lt;h2 id=&#34;自定义图库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义图库&#34;&gt;#&lt;/a&gt; 自定义图库&lt;/h2&gt;
 &lt;h3 id=&#34;方法1-借用gimhoy图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法1-借用gimhoy图床&#34;&gt;#&lt;/a&gt; 方法 1 借用 GimHoy 图床&lt;/h3&gt;
